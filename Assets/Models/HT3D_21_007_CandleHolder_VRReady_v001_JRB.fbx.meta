@@ -1,0 +1,211 @@
+fileFormatVersion: 2
+guid: 6973685bc2484a34f879c43daf66cfe6
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Candle-Holder_Main_Wax_Brown_BaseColor
+    second: {fileID: 2800000, guid: b2bb14b5ee0c372458e2877b66dff99d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Candle-Holder_Main_Wax_Brown_Height
+    second: {fileID: 2800000, guid: 9c6d23a9acd841d41a006d0ce22246e4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Candle-Holder_Main_Wax_Brown_Roughness
+    second: {fileID: 2800000, guid: ab7e3c6cc2fef0d4fb47950e57d58b4e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Candle-Holder_Main_Wax_Cream_BaseColor
+    second: {fileID: 2800000, guid: e2288a9f4defc9142adf2a2cf39bc39f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Candle-Holder_Main_Wax_Cream_Height
+    second: {fileID: 2800000, guid: c68902254997ccc438b32c26118482d3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Candle-Holder_Main_Wax_Cream_Roughness
+    second: {fileID: 2800000, guid: f91d620f19caaef479599f558bb31ede, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Candle-Holder_Main_Wax_white_BaseColor
+    second: {fileID: 2800000, guid: 46eb7798731c33349b874677107ddb79, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Candle-Holder_Main_Wax_white_Height
+    second: {fileID: 2800000, guid: df781827b471e9b40a807dae15e71151, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Candle-Holder_Main_Wax_white_Roughness
+    second: {fileID: 2800000, guid: faf7e037deb12cb43897a638b5805564, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Candle-Holder_Main_candle_BaseColor
+    second: {fileID: 2800000, guid: 12eb13e0017911647807ac97a0ea2f0f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Candle-Holder_Main_candle_Height
+    second: {fileID: 2800000, guid: 7d85166fb2cb2fb4e895aea64104caeb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Candle-Holder_Main_candle_Roughness
+    second: {fileID: 2800000, guid: 721566019a792e245a7fcbefa52a439d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Candle-Holder_Main_candle_transparent_BaseColor
+    second: {fileID: 2800000, guid: 15732df3e09a0494896ecd97655da30c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Candle-Holder_Main_candle_transparent_Height
+    second: {fileID: 2800000, guid: 0a07f7d917e66844bad9849ee5bbe7a5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Candle-Holder_Main_candle_transparent_Roughness
+    second: {fileID: 2800000, guid: 28b460e428e12ca4e9aebec02cd816af, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Candle-Holder_Main_holder_BaseColor
+    second: {fileID: 2800000, guid: fbf02c038cc60cd4c9bfe9f970bd9e5e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Candle-Holder_Main_holder_Height
+    second: {fileID: 2800000, guid: 8ef6a2e2e7638a74389a65357dadac0b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Candle-Holder_Main_holder_Roughness
+    second: {fileID: 2800000, guid: 2cafea17ff162eb49a94ec6803de5867, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Candle-Holder_Main_wick_BaseColor
+    second: {fileID: 2800000, guid: 85d2ce958326a7848939aac98f9eae7c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Candle-Holder_Main_wick_Height
+    second: {fileID: 2800000, guid: ce938534bb75905419c632bf3a0976d8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Candle-Holder_Main_wick_Roughness
+    second: {fileID: 2800000, guid: e1e4e3bade3e6c645bac5ddc62e47dc0, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
