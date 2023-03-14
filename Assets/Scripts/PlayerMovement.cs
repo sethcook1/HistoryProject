@@ -25,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
     public float groundDrag;
     bool grounded;
 
-       //jump Controls
+    //jump Controls
     [Header("Keybinds")]
     public KeyCode jumpKey = KeyCode.Space;
 
@@ -93,7 +93,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Moveplayer()
     {
-        moveDirection=orientation.forward *verticalInput +orientation.right * horizontalInput;
+        moveDirection=orientation.forward *verticalInput + orientation.right * horizontalInput;
         rb.AddForce(moveDirection.normalized * moveSpeed *speed, ForceMode.Force);
 
     //on ground
