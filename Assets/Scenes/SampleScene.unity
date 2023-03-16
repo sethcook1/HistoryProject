@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571336, b: 0.3069219, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -607,7 +607,7 @@ GameObject:
   - component: {fileID: 973102405}
   - component: {fileID: 973102404}
   - component: {fileID: 973102403}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -685,6 +685,7 @@ GameObject:
   - component: {fileID: 1235213443}
   - component: {fileID: 1235213445}
   - component: {fileID: 1235213444}
+  - component: {fileID: 1235213446}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -758,6 +759,20 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1235213446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235213442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f2aa37a4f6ab4ab3bfdb2bb9d9b75d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseSens: 150
+  playerBody: {fileID: 2007637888}
 --- !u!1 &1773642783
 GameObject:
   m_ObjectHideFlags: 0
@@ -990,12 +1005,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c34ac3221945bb340a1c4e8dc704d05f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
+  speed: 7
   orientation: {fileID: 689998650}
   turnSpeed: 4
-  moveSpeed: 7
-  minTurnAngle: -90
-  maxTurnAngle: 90
+  moveSpeed: 4
   playerHeight: 2
   whatisGround:
     serializedVersion: 2
@@ -1003,8 +1016,8 @@ MonoBehaviour:
   groundDrag: 5
   jumpKey: 32
   jumpForce: 5
-  jumpCoolDown: 0
-  airMultiplier: 0
+  jumpCoolDown: 0.25
+  airMultiplier: 0.4
 --- !u!114 &2007637890
 MonoBehaviour:
   m_ObjectHideFlags: 0
