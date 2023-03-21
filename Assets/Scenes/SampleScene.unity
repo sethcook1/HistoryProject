@@ -1018,8 +1018,6 @@ MonoBehaviour:
   jumpForce: 5
   jumpCoolDown: 0.25
   airMultiplier: 0.4
-  horizontalInput: 0
-  verticalInput: 0
 --- !u!114 &2007637890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1034,6 +1032,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Canvas: {fileID: 1773642783}
   Image: {fileID: 7897172682776273128, guid: f646a9d6894cc2b41b3b9e26e84b297a, type: 3}
+  menuButton: 102
+  exitButton: 27
 --- !u!1001 &2157774354050286485
 PrefabInstance:
   m_ObjectHideFlags: 0
