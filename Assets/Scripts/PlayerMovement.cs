@@ -29,8 +29,8 @@ public class PlayerMovement : MonoBehaviour
     bool readyToJump = true;
 
 
-    float horizontalInput;
-    float verticalInput;
+    public float horizontalInput;
+    public float verticalInput;
     Vector3 moveDirection;
 
     // Start is called before the first frame update
@@ -87,12 +87,12 @@ public class PlayerMovement : MonoBehaviour
      void Moveplayer()
     {
         moveDirection=orientation.forward *verticalInput +orientation.right * horizontalInput;
-        rb.AddForce(moveDirection.normalized * moveSpeed *speed, ForceMode.Force);
+        //rb.AddForce(moveDirection.normalized * moveSpeed *speed, ForceMode.Acceleration);
     //updated stuff
 
     //on ground
         if(grounded)
-            rb.AddForce(moveDirection.normalized * moveSpeed * speed, ForceMode.Force);
+            rb.AddForce(moveDirection.normalized * moveSpeed * speed, ForceMode.Acceleration);
 
     //in air
         else if(!grounded)
