@@ -29,8 +29,8 @@ public class PlayerMovement : MonoBehaviour
     bool readyToJump = true;
 
 
-    public float horizontalInput;
-    public float verticalInput;
+    float horizontalInput;
+    float verticalInput;
     Vector3 moveDirection;
 
     // Start is called before the first frame update
@@ -50,8 +50,8 @@ public class PlayerMovement : MonoBehaviour
         grounded =Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f +0.2f, whatisGround);
 
        //input 
-       horizontalInput = Input.GetAxis("Horizontal"); 
-       verticalInput = Input.GetAxis("Vertical"); 
+       horizontalInput = Input.GetAxisRaw("Horizontal"); 
+       verticalInput = Input.GetAxisRaw("Vertical"); 
         
          //handle drag
         if(grounded)
