@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571336, b: 0.3069219, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1041,8 +1041,9 @@ GameObject:
   - component: {fileID: 2007637887}
   - component: {fileID: 2007637886}
   - component: {fileID: 2007637885}
-  - component: {fileID: 2007637883}
+  - component: {fileID: 2007637891}
   - component: {fileID: 2007637889}
+  - component: {fileID: 2007637883}
   - component: {fileID: 2007637890}
   m_Layer: 0
   m_Name: Player
@@ -1189,6 +1190,20 @@ MonoBehaviour:
   Image: {fileID: 7897172682776273128, guid: f646a9d6894cc2b41b3b9e26e84b297a, type: 3}
   menuButton: 102
   exitButton: 27
+--- !u!114 &2007637891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007637882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6743d97018ad0a84db7d10678fc429d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collided_obj: {fileID: 0}
+  rayButton: 256
 --- !u!1001 &2157774354050286485
 PrefabInstance:
   m_ObjectHideFlags: 0
