@@ -33,12 +33,14 @@ public class PlayerMovement : MonoBehaviour
     float verticalInput;
     Vector3 moveDirection;
 
+    Transform respawnPoint;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation=true;
-
+        respawnPoint = GameObject.Find("RespawnPoint").transform;
         //Cursor.visible=false; 
     }
 
@@ -74,6 +76,12 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
+        //player respawner
+        //if the player's height is below a threshold, teleport the player to the respawn point.
+        if(this.transform.position.y < -10)
+        {
+            this.transform.position = respawnPoint.position;
+        }
     }
 
     //calls player movement

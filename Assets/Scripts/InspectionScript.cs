@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class InspectionScript : MonoBehaviour
 {
-    private GameObject view;
+    public Camera view;
     public GameObject collided_obj;
     public KeyCode rayButton;
     public Ray ray_direction;
@@ -13,13 +13,13 @@ public class InspectionScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-           view = GameObject.Find("Camera");    
+           view = (Camera)GameObject.Find("Camera").GetComponent("Camera");    
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        ray_direction = Camera.main.ScreenPointToRay(Input.mousePosition);
+        ray_direction = view.ScreenPointToRay(Input.mousePosition);
            
         if (Physics.Raycast(ray_direction, out hit))
         {
