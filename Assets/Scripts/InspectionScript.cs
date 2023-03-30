@@ -8,6 +8,8 @@ public class InspectionScript : MonoBehaviour
     public GameObject collided_obj;
     public KeyCode rayButton;
     public Ray ray_direction;
+    public string objecthitName;
+    public string objecthitInfo;
     private RaycastHit hit;
 
     // Start is called before the first frame update
@@ -25,12 +27,13 @@ public class InspectionScript : MonoBehaviour
         {
             Debug.DrawRay(ray_direction.origin, ray_direction.direction * 100, Color.yellow, 1);
             collided_obj = hit.collider.gameObject;
+            objecthitName = collided_obj.GetComponent<InspectInfo>().objectName;
+            objecthitInfo = collided_obj.GetComponent<InspectInfo>().objectInfo;
         }
 
         else
         {
             Debug.DrawRay(ray_direction.origin, ray_direction.direction * 100, Color.yellow, 1);
         }
-        
     }
 }
