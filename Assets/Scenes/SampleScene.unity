@@ -858,6 +858,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseSens: 500
   playerBody: {fileID: 2007637888}
+  menuButton: 102
+  exitButton: 27
 --- !u!114 &1235213447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1236,6 +1238,8 @@ MonoBehaviour:
   view: {fileID: 0}
   collided_obj: {fileID: 0}
   rayButton: 256
+  objecthitName: 
+  objecthitInfo: 
 --- !u!1001 &2157774354050286485
 PrefabInstance:
   m_ObjectHideFlags: 0
