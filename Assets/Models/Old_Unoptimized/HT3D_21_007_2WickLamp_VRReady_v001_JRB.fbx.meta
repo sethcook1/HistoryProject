@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: 67ae837eb81040c4c8f2cea516095605
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Handle_BaseColor
+    second: {fileID: 2800000, guid: e261a08dc7360004282cc71d34c202d3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Handle_Height
+    second: {fileID: 2800000, guid: d3f922faafae3ac4092593aa6d63611f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Handle_Metallic
+    second: {fileID: 2800000, guid: 51300760bc36a15448127908f1af347d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Handle_Roughness
+    second: {fileID: 2800000, guid: 3c60be594722488478ece26ad9cc71ff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Hanger_BaseColor
+    second: {fileID: 2800000, guid: fe87208f11f6626409d0473664a76249, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Hanger_Height
+    second: {fileID: 2800000, guid: 79f3810ec50e62442bfa45c1cf181b29, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Hanger_Metallic
+    second: {fileID: 2800000, guid: 77698e982210d974e9b081a8e9c3a8ad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Hanger_Roughness
+    second: {fileID: 2800000, guid: c05c90e7999089348a4986f98643b948, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Hook_BaseColor
+    second: {fileID: 2800000, guid: cc5c7ba9b75627345bb135a0bb058bd7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Hook_Height
+    second: {fileID: 2800000, guid: 4797a9b8615b44846b91c249cdda76e4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Hook_Metallic
+    second: {fileID: 2800000, guid: ffb6b2971f68afd418eb4bf7e806520c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Hook_Roughness
+    second: {fileID: 2800000, guid: bc64ec65ae8316642bcfdfb964bf6749, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Lid_BaseColor
+    second: {fileID: 2800000, guid: 34741a49ce91f0a49acc29870e10eb2c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Lid_Height
+    second: {fileID: 2800000, guid: b5b490ad3e5a9b94293844786c75ca64, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Lid_Metallic
+    second: {fileID: 2800000, guid: 20d1472258248e14fa08c62a0dd57533, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Lid_Roughness
+    second: {fileID: 2800000, guid: 3b5c202165cfbb34396c4544d5ab37ce, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Pot_BaseColor
+    second: {fileID: 2800000, guid: ba3c167a47329a4408543411fac2856e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Pot_Height_v02
+    second: {fileID: 2800000, guid: 4cb83c6cf1bfa8b40bf1a60240ccecc6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Pot_Metallic
+    second: {fileID: 2800000, guid: b053e2b1927336d4c814086245da3e14, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Pot_Roughness
+    second: {fileID: 2800000, guid: cae17e8090c4d6c42b6e06fe2b5d6c14, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Wax Catcher L_BaseColor
+    second: {fileID: 2800000, guid: 041fc208e902e274b80b37f68f513581, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Wax Catcher L_Height
+    second: {fileID: 2800000, guid: f9e58ede8c2ab9c4cb156fd1c19a15bd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Wax Catcher L_Metallic
+    second: {fileID: 2800000, guid: 04d77de0131b9e64d9a1d0367a46ef3e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Wax Catcher L_Roughness
+    second: {fileID: 2800000, guid: d744c830100d97b4f9379cc2d0517020, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Wax Catcher R_BaseColor
+    second: {fileID: 2800000, guid: 034a6d74f70245a4d8c16c3f05704527, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Wax Catcher R_Height
+    second: {fileID: 2800000, guid: 65517e09d23a2cc419fe3469d934ff57, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Wax Catcher R_Metallic
+    second: {fileID: 2800000, guid: 677ae6b5189e83a45b9a85b7a9ed1ae3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Wax Catcher R_Roughness
+    second: {fileID: 2800000, guid: 54b4b53820952674c9672bd18b128833, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Wick Holder L_BaseColor
+    second: {fileID: 2800000, guid: 526da5cb21bdac1438781677bb8f8047, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Wick Holder L_Height
+    second: {fileID: 2800000, guid: 99f2ebe331ae29a4b9088edbcc86c230, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Wick Holder L_Metallic
+    second: {fileID: 2800000, guid: 6e4e37475acf6094281a602e0dd0aafd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Wick Holder L_Roughness
+    second: {fileID: 2800000, guid: f5b45f22953f32146ad1440092ec7aaf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Wick Holder R_BaseColor
+    second: {fileID: 2800000, guid: 1fdc796651c0f5f43be53b758aee707b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Wick Holder R_Height
+    second: {fileID: 2800000, guid: 8cafcddd1bae8ef48b56edfdbb9008b0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Wick Holder R_Metallic
+    second: {fileID: 2800000, guid: 885069c901f55a04ca33140794983d65, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2Wick_Candle_Main_Wick Holder R_Roughness
+    second: {fileID: 2800000, guid: cf0f8a3bc2e6ecf4c8d9d308cee1de45, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
