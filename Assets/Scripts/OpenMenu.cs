@@ -6,6 +6,8 @@ public class OpenMenu : MonoBehaviour
 {
     public GameObject Canvas;
     public GameObject Image;
+    public GameObject startMenu;
+    private GameObject cloneMenu;
     public KeyCode menuButton;
     public KeyCode exitButton;
     private GameObject cloneImage;
@@ -13,23 +15,26 @@ public class OpenMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        cloneMenu = Instantiate(startMenu, Canvas.transform, false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(menuButton))
+        if (Input.GetKeyDown(menuButton) & !cloneImage)
         {
-            if (!cloneImage)
-            {
-                cloneImage = Instantiate(Image, Canvas.transform, false);
-            }
+            cloneImage = Instantiate(Image, Canvas.transform, false);
         }
 
-        if (Input.GetKeyDown(exitButton))
+        if (Input.GetKeyDown(exitButton) & cloneImage)
         {
             Destroy(cloneImage);
         }
+
+        if (Input.GetKeyDown(exitButton) & cloneMenu)
+        {
+            Destroy(cloneMenu);
+        }
     }
+
 }
