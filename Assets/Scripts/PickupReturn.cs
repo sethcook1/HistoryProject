@@ -6,7 +6,7 @@ public class PickupReturn : MonoBehaviour
 {
     private Vector3 objOriginalPosition;  //stores the position the object was at start
     private Quaternion objOriginalRotation;  //stores the rotation the object was at start
-    public Rigidbody selfRigidbody;
+    private Rigidbody selfRigidbody;
     // Start is called before the first frame update
     void Start()
     {
