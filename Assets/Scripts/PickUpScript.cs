@@ -12,6 +12,7 @@ public class PickUpScript : MonoBehaviour
     public float throwForce = 500f; //force at which the object is thrown at
     public float pickUpRange = 5f; //how far the player can pickup the object from
     private float rotationSpeed = 100f; //how fast/slow the object is rotated in relation to mouse movement
+    private GameObject Objects; //parent object that holds all pickupable objects
     private GameObject heldObj; //object which we pick up
     private Rigidbody heldObjRb; //rigidbody of object we pick up
     private bool canDrop = true; //this is needed so we don't throw/drop object when rotating the object
@@ -22,6 +23,7 @@ public class PickUpScript : MonoBehaviour
     void Start()
     {
         LayerNumber = LayerMask.NameToLayer("holdLayer"); //if your holdLayer is named differently make sure to change this ""
+        Objects = GameObject.Find("Objects");
 
     }
     void Update()
@@ -58,7 +60,7 @@ public class PickUpScript : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Mouse0) && canDrop == true) //Mous0 (leftclick) is used to throw, change this if you want another button to be used)
             {
                 StopClipping();
-                ThrowObject();
+                //ThrowObject();
             }
 
         }
