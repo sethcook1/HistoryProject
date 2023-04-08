@@ -5,39 +5,37 @@ using UnityEngine;
 public class OpenMenu : MonoBehaviour
 {
     public GameObject Canvas;
-    public GameObject Image;
-    public GameObject startMenu;
+    private GameObject startMenu;
     private GameObject itemMenu;
     public KeyCode menuButton;
     public KeyCode exitButton;
-    private GameObject cloneImage;
 
     // Start is called before the first frame update
     void Start()
     {
         //cloneMenu = Instantiate(startMenu, Canvas.transform, false);
         itemMenu = GameObject.Find("ItemMenu");
+        startMenu = GameObject.Find("StartMenu");
+        startMenu.SetActive(true);
         itemMenu.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(menuButton) & !cloneImage)
+        if (Input.GetKeyDown(menuButton) & !itemMenu.activeInHierarchy)
         {
             itemMenu.SetActive(true);
         }
 
-        /*
-        if (Input.GetKeyDown(exitButton) & cloneImage)
-        {
-            Destroy(cloneImage);
-        }
-        */
-
-        if (Input.GetKeyDown(exitButton) & itemMenu)
+        if (Input.GetKeyDown(exitButton) & itemMenu.activeInHierarchy)
         {
             itemMenu.SetActive(false);
+        }
+
+        if (Input.GetKeyDown(exitButton) & startMenu.activeInHierarchy)
+        {
+            startMenu.SetActive(false);
         }
     }
 
