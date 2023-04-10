@@ -10,10 +10,14 @@ public class mouse_look : MonoBehaviour
     public KeyCode exitButton;
     float xRotation = 0f;
     private bool cursorLocked;
+    private GameObject itemMenu;
+    private GameObject startMenu;
 
     // Start is called before the first frame update
     void Start()
     {
+        itemMenu = GameObject.Find("ItemMenu");
+        startMenu = GameObject.Find("StartMenu");
         Cursor.lockState=CursorLockMode.Locked;
         cursorLocked = true;
     }
@@ -21,27 +25,24 @@ public class mouse_look : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float mouseX = Input.GetAxis("Mouse X") * mouseSens * Time.deltaTime;
-        float mouseY = Input.GetAxis("Mouse Y") * mouseSens * Time.deltaTime;
-
-        if (Input.GetKeyDown(menuButton) && cursorLocked)
+        if (itemMenu.activeInHierarchy)
         {   
             Cursor.lockState=CursorLockMode.None;
             cursorLocked = false;   
         }
 
-        if (Input.GetKeyDown(exitButton) && !cursorLocked)
+        if (!itemMenu.activeInHierarchy)
         {
             Cursor.lockState=CursorLockMode.Locked;
             cursorLocked = true;
         }
         
-
-        xRotation -= mouseY;
-        xRotation= Mathf.Clamp(xRotation,-90f,90f);
-
         if (cursorLocked)
         {
+            float mouseX = Input.GetAxis("Mouse X") * mouseSens * Time.deltaTime;
+            float mouseY = Input.GetAxis("Mouse Y") * mouseSens * Time.deltaTime;
+            xRotation -= mouseY;
+            xRotation= Mathf.Clamp(xRotation,-90f,90f);
             transform.localRotation=Quaternion.Euler(xRotation,0f,0f);
             playerBody.Rotate(Vector3.up * mouseX);
         }
