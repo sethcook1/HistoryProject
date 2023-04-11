@@ -11,14 +11,17 @@ public class InspectionScript : MonoBehaviour
     public string objecthitName;
     public string objecthitInfo;
     private RaycastHit hit;
+    private GameObject pickupScriptObj;
 
     // Start is called before the first frame update
     void Start()
     {
-           view = (Camera)GameObject.Find("Camera").GetComponent("Camera");    
+        view = (Camera)GameObject.Find("Camera").GetComponent("Camera");
+        pickupScriptObj = view.gameObject;
     }
 
     // Update is called once per frame
+    /*
     void FixedUpdate()
     {
         ray_direction = view.ScreenPointToRay(Input.mousePosition);
@@ -35,5 +38,10 @@ public class InspectionScript : MonoBehaviour
         {
             Debug.DrawRay(ray_direction.origin, ray_direction.direction * 100, Color.yellow, 1);
         }
+    }
+    */
+    void Update()
+    {
+        collided_obj = pickupScriptObj.GetComponent<PickUpScript>().heldObj;
     }
 }

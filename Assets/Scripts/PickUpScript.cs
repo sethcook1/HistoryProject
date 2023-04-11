@@ -13,7 +13,7 @@ public class PickUpScript : MonoBehaviour
     public float pickUpRange = 5f; //how far the player can pickup the object from
     private float rotationSpeed = 100f; //how fast/slow the object is rotated in relation to mouse movement
     private GameObject Objects; //parent object that holds all pickupable objects
-    private GameObject heldObj; //object which we pick up
+    public GameObject heldObj; //object which we pick up
     private Rigidbody heldObjRb; //rigidbody of object we pick up
     private bool canDrop = true; //this is needed so we don't throw/drop object when rotating the object
     private int LayerNumber; //layer index
