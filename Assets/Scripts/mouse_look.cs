@@ -9,32 +9,30 @@ public class mouse_look : MonoBehaviour
     public KeyCode menuButton;
     public KeyCode exitButton;
     float xRotation = 0f;
-    private bool cursorLocked;
-    private GameObject itemMenu;
+    private bool cursorLocked = false;
+    private GameObject playerObj;
     private GameObject startMenu;
 
     // Start is called before the first frame update
     void Start()
     {
-        itemMenu = GameObject.Find("ItemMenu");
+        playerObj = GameObject.Find("Player");
         startMenu = GameObject.Find("StartMenu");
-        Cursor.lockState=CursorLockMode.Locked;
-        cursorLocked = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (itemMenu.activeInHierarchy)
-        {   
-            Cursor.lockState=CursorLockMode.None;
-            cursorLocked = false;   
-        }
-
-        if (!itemMenu.activeInHierarchy)
+        if (!playerObj.GetComponent<OpenMenu>().menuOpen & !cursorLocked & !startMenu.activeInHierarchy)
         {
             Cursor.lockState=CursorLockMode.Locked;
             cursorLocked = true;
+        }
+
+        if (playerObj.GetComponent<OpenMenu>().menuOpen & cursorLocked)
+        {
+            Cursor.lockState=CursorLockMode.None;
+            cursorLocked = false;
         }
         
         if (cursorLocked)
@@ -47,7 +45,5 @@ public class mouse_look : MonoBehaviour
             playerBody.Rotate(Vector3.up * mouseX);
         }
         
-
-
     }
 }
