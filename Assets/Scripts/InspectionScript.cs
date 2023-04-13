@@ -21,7 +21,7 @@ public class InspectionScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    /*
+    
     void FixedUpdate()
     {
         ray_direction = view.ScreenPointToRay(Input.mousePosition);
@@ -39,9 +39,11 @@ public class InspectionScript : MonoBehaviour
             Debug.DrawRay(ray_direction.origin, ray_direction.direction * 100, Color.yellow, 1);
         }
     }
-    */
+    
+    /*
     void Update()
     {
         collided_obj = pickupScriptObj.GetComponent<PickUpScript>().heldObj;
     }
+    */
 }
