@@ -28,7 +28,6 @@ public class PlayerMovement : MonoBehaviour
     public float airMultiplier;
     bool readyToJump = true;
 
-
     float horizontalInput;
     float verticalInput;
     Vector3 moveDirection;
@@ -90,7 +89,10 @@ public class PlayerMovement : MonoBehaviour
     //calls player movement
     void FixedUpdate()
     {
-        Moveplayer();
+        if (!GetComponent<OpenMenu>().menuOpen)
+        {
+            Moveplayer();
+        }      
 
     }
 
