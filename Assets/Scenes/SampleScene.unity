@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.25823763, g: 0.56233305, b: 0.55574846, a: 1}
+  m_IndirectSpecularColor: {r: 0.2580508, g: 0.5626765, b: 0.556624, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2276,12 +2276,20 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1467876393786449085, guid: eb48a3a3b1954f949972a0e9c3195362, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4580227277932077405, guid: eb48a3a3b1954f949972a0e9c3195362, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4580227277932077405, guid: eb48a3a3b1954f949972a0e9c3195362, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580227277932077405, guid: eb48a3a3b1954f949972a0e9c3195362, type: 3}
+      propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4639469616006385656, guid: eb48a3a3b1954f949972a0e9c3195362, type: 3}
@@ -2536,6 +2544,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2552831538914808376, guid: e0e530dd1daec4ed3abdaa406f358aa4, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2552831538914808376, guid: e0e530dd1daec4ed3abdaa406f358aa4, type: 3}
+      propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5265486837479782325, guid: e0e530dd1daec4ed3abdaa406f358aa4, type: 3}
@@ -3350,7 +3362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f2aa37a4f6ab4ab3bfdb2bb9d9b75d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSens: 500
+  mouseSens: 250
   playerBody: {fileID: 2007637888}
   menuButton: 102
   exitButton: 27
@@ -5597,8 +5609,8 @@ MonoBehaviour:
   groundDrag: 5
   jumpKey: 32
   jumpForce: 5
-  jumpCoolDown: 0.25
-  airMultiplier: 0.4
+  jumpCoolDown: 0.5
+  airMultiplier: 0.2
 --- !u!114 &2007637890
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -48,6 +48,9 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //this function ensures the  player doesnt get launched forward after spamming the space bar\
+        speedControl();
+        
         //ground check
         grounded =Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f +0.2f, whatisGround);
 
