@@ -5,35 +5,39 @@ using UnityEngine;
 public class OpenMenu : MonoBehaviour
 {
     public GameObject Canvas;
+    private GameObject[] objectInfo;
     private GameObject startMenu;
     private GameObject playerCam;
+    public GameObject curOpenMenu;
+    /*
     private GameObject sugNipInfo;
-    private int sugNipId;
     private GameObject brownMugInfo;
-    private int brownMugId;
     private GameObject broomInfo;
-    private int broomId;
     private GameObject bucketInfo;
-    private int bucketId;
     private GameObject pewterPlateInfo;
-    private int pewterPlateId;
     private GameObject woodenStoolInfo;
-    private int woodenStoolId;
+    private GameObject hornSpoonInfo;
+    private GameObject smokingPipeInfo;
+    private GameObject woodenSpoonInfo;
+    private GameObject coatInfo;
+    private GameObject metalLadleInfo;
+    private GameObject lampInfo;
+    private GameObject knifeInfo;
+    private GameObject hatInfo;
+    private GameObject grubHoeInfo;
+    private GameObject gourdLadleInfo;
+    private GameObject flowerEarthenInfo;
+    private GameObject candleInfo;
+    private GameObject bedInfo;
+    private GameObject defaultInfo;
+    
+    private GameObject tableInfo;
+    */
+    
     //private GameObject flowerPotInfo;
     //private int flowerPotId;
-    private GameObject hornSpoonInfo;
-    private int hornSpoonId1;
-    private int hornSpoonId2;
-    private int hornSpoonId3;
-    private GameObject smokingPipeInfo;
-    private int smokingPipeId;
-    private GameObject woodenSpoonInfo;
-    private int woodenSpoonId;
-    private GameObject coatInfo;
-    private int coatId;
-    private GameObject defaultInfo;
+    
     private int objHeld;
-    private GameObject curOpenMenu;
     public KeyCode menuButton;
     public KeyCode exitButton;
     public bool menuOpen;
@@ -42,33 +46,53 @@ public class OpenMenu : MonoBehaviour
     void Start()
     {
         //cloneMenu = Instantiate(startMenu, Canvas.transform, false);
-        sugNipInfo = GameObject.Find("SugarNipperInfo");
-        sugNipId = GameObject.Find("SugarNippers").gameObject.GetInstanceID();
-        brownMugInfo = GameObject.Find("BrownGlazedMugInfo");
-        brownMugId = GameObject.Find("BrownGlazedMug").gameObject.GetInstanceID();
-        broomInfo = GameObject.Find("BroomInfo");
-        broomId = GameObject.Find("Broom").gameObject.GetInstanceID();
-        bucketInfo = GameObject.Find("BucketInfo");
-        bucketId = GameObject.Find("Bucket").gameObject.GetInstanceID();
-        pewterPlateInfo = GameObject.Find("PewterPlateInfo");
-        pewterPlateId = GameObject.Find("PewterPlate").gameObject.GetInstanceID();
-        woodenStoolInfo = GameObject.Find("WoodenStoolInfo");
-        woodenStoolId = GameObject.Find("WoodenStool").gameObject.GetInstanceID();
-        //flowerPotInfo = GameObject.Find("FlowerPotInfo");
-        //flowerPotId = GameObject.Find("flowerpot??").gameObject.GetInstanceID();
-        hornSpoonInfo = GameObject.Find("HornSpoonInfo");
-        hornSpoonId1 = GameObject.Find("HornSpoon1").gameObject.GetInstanceID();
-        hornSpoonId2 = GameObject.Find("HornSpoon2").gameObject.GetInstanceID();
-        hornSpoonId3 = GameObject.Find("HornSpoon3").gameObject.GetInstanceID();
-        smokingPipeInfo = GameObject.Find("SmokingPipeInfo");
-        smokingPipeId = GameObject.Find("SmokingPipe").gameObject.GetInstanceID();
-        woodenSpoonInfo = GameObject.Find("WoodenSpoonInfo");
-        woodenSpoonId = GameObject.Find("WoodenSpoon").gameObject.GetInstanceID();
-        coatInfo = GameObject.Find("CoatInfo");
-        coatId = GameObject.Find("Coat").gameObject.GetInstanceID();
-        defaultInfo = GameObject.Find("InfoTemplate");
+        objectInfo = GameObject.FindGameObjectsWithTag("UI");
+        for (int i = 0; i < objectInfo.Length; i++)
+        {
+            objectInfo[i].SetActive(false);
+        }
         playerCam = GameObject.Find("Camera");
         startMenu = GameObject.Find("StartMenu");
+        startMenu.SetActive(true);
+        menuOpen = true;
+        /*
+        defaultInfo = GameObject.Find("InfoTemplate");
+        tableInfo = GameObject.Find("TableInfo");
+        metalLadleInfo = GameObject.Find("MetalLadleInfo");
+        lampInfo = GameObject.Find("LampInfo");
+        knifeInfo = GameObject.Find("KnifeInfo");
+        hatInfo = GameObject.Find("HatInfo");
+        grubHoeInfo = GameObject.Find("GrubHoeInfo");
+        gourdLadleInfo = GameObject.Find("GourdLadleInfo");
+        flowerEarthenInfo = GameObject.Find("FlowerEarthenInfo");
+        candleInfo = GameObject.Find("CandleInfo");
+        bedInfo = GameObject.Find("BedInfo");
+        sugNipInfo = GameObject.Find("SugarNipperInfo");
+        brownMugInfo = GameObject.Find("BrownGlazedMugInfo");
+        broomInfo = GameObject.Find("BroomInfo");
+        bucketInfo = GameObject.Find("BucketInfo");
+        pewterPlateInfo = GameObject.Find("PewterPlateInfo");
+        woodenStoolInfo = GameObject.Find("WoodenStoolInfo");
+        hornSpoonInfo = GameObject.Find("HornSpoonInfo");
+        smokingPipeInfo = GameObject.Find("SmokingPipeInfo");
+        woodenSpoonInfo = GameObject.Find("WoodenSpoonInfo");
+        coatInfo = GameObject.Find("CoatInfo");
+        */
+        
+        //flowerPotInfo = GameObject.Find("FlowerPotInfo");
+        //flowerPotId = GameObject.Find("flowerpot??").gameObject.GetInstanceID();
+        
+        /*
+        lampInfo.SetActive(false);
+        knifeInfo.SetActive(false);
+        hatInfo.SetActive(false);
+        tableInfo.SetActive(false);
+        metalLadleInfo.SetActive(false);
+        grubHoeInfo.SetActive(false);
+        gourdLadleInfo.SetActive(false);
+        flowerEarthenInfo.SetActive(false);
+        candleInfo.SetActive(false);
+        bedInfo.SetActive(false);
         sugNipInfo.SetActive(false);
         brownMugInfo.SetActive(false);
         broomInfo.SetActive(false);
@@ -81,8 +105,7 @@ public class OpenMenu : MonoBehaviour
         woodenSpoonInfo.SetActive(false);
         coatInfo.SetActive(false);
         defaultInfo.SetActive(false);
-        startMenu.SetActive(true);
-        menuOpen = true;
+        */
     }
 
     // Update is called once per frame
@@ -99,108 +122,258 @@ public class OpenMenu : MonoBehaviour
             menuOpen = true;
             objHeld = playerCam.GetComponent<PickUpScript>().heldObj.gameObject.GetInstanceID();
 
-            if (objHeld == sugNipId)
+            if (objHeld == playerCam.GetComponent<InstanceId>().sugNipId)
             {
-                curOpenMenu = sugNipInfo;
+                for (int i=0; i<objectInfo.Length; i++)
+                {
+                    if (objectInfo[i].ToString() == "SuggarNipperInfo")
+                    {
+                        curOpenMenu = objectInfo[i];
+                    }
+                }
                 curOpenMenu.SetActive(true);
             }
 
-            if (objHeld == brownMugId)
+            else if (objHeld == playerCam.GetComponent<InstanceId>().brownMugId)
             {
-                curOpenMenu = brownMugInfo;
+                for (int i=0; i<objectInfo.Length; i++)
+                {
+                    if (objectInfo[i].ToString() == "BrownGlazedMugInfo")
+                    {
+                        curOpenMenu = objectInfo[i];
+                    }
+                }
                 curOpenMenu.SetActive(true);
             }
 
-            if (objHeld == broomId)
+            else if (objHeld == playerCam.GetComponent<InstanceId>().broomId)
             {
-                curOpenMenu = broomInfo;
+                for (int i=0; i<objectInfo.Length; i++)
+                {
+                    if (objectInfo[i].ToString() == "BroomInfo")
+                    {
+                        curOpenMenu = objectInfo[i];
+                    }
+                }
                 curOpenMenu.SetActive(true);
             }
 
-            if (objHeld == bucketId)
+            else if (objHeld == playerCam.GetComponent<InstanceId>().bucketId)
             {
-                curOpenMenu = bucketInfo;
+                for (int i=0; i<objectInfo.Length; i++)
+                {
+                    if (objectInfo[i].ToString() == "BucketInfo")
+                    {
+                        curOpenMenu = objectInfo[i];
+                    }
+                }
                 curOpenMenu.SetActive(true);
             }
 
-            if(objHeld == pewterPlateId)
+            else if (objHeld == playerCam.GetComponent<InstanceId>().pewterPlateId)
             {
-                curOpenMenu = pewterPlateInfo;
+                for (int i=0; i<objectInfo.Length; i++)
+                {
+                    if (objectInfo[i].ToString() == "PewterPlateInfo")
+                    {
+                        curOpenMenu = objectInfo[i];
+                    }
+                }
                 curOpenMenu.SetActive(true);
             }
 
-            if(objHeld == woodenStoolId)
+            else if (objHeld == playerCam.GetComponent<InstanceId>().woodenStoolId)
             {
-                curOpenMenu = woodenStoolInfo;
+                for (int i=0; i<objectInfo.Length; i++)
+                {
+                    if (objectInfo[i].ToString() == "WoodenStoolInfo")
+                    {
+                        curOpenMenu = objectInfo[i];
+                    }
+                }
                 curOpenMenu.SetActive(true);
             }
 
-            //if (objHeld == flowerPotId)
-            //{
-            //    curOpenMenu = flowerPotInfo;
-            //    curOpenMenu.SetActive(true);
-            //}
-
-            if (objHeld == hornSpoonId1)
+            else if (objHeld == playerCam.GetComponent<InstanceId>().hornSpoonId1 || objHeld == playerCam.GetComponent<InstanceId>().hornSpoonId2 || objHeld == playerCam.GetComponent<InstanceId>().hornSpoonId3)
             {
-                curOpenMenu = hornSpoonInfo;
+                for (int i=0; i<objectInfo.Length; i++)
+                {
+                    if (objectInfo[i].ToString() == "HornSpoonInfo")
+                    {
+                        curOpenMenu = objectInfo[i];
+                    }
+                }
                 curOpenMenu.SetActive(true);
             }
 
-            if (objHeld == hornSpoonId2)
+            else if (objHeld == playerCam.GetComponent<InstanceId>().smokingPipeId)
             {
-                curOpenMenu = hornSpoonInfo;
+                for (int i=0; i<objectInfo.Length; i++)
+                {
+                    if (objectInfo[i].ToString() == "SmokingPipeInfo")
+                    {
+                        curOpenMenu = objectInfo[i];
+                    }
+                }
                 curOpenMenu.SetActive(true);
             }
 
-            if (objHeld == hornSpoonId3)
+            else if (objHeld == playerCam.GetComponent<InstanceId>().woodenSpoonId)
             {
-                curOpenMenu = hornSpoonInfo;
+                for (int i=0; i<objectInfo.Length; i++)
+                {
+                    if (objectInfo[i].ToString() == "WoodenSpoonInfo")
+                    {
+                        curOpenMenu = objectInfo[i];
+                    }
+                }
                 curOpenMenu.SetActive(true);
             }
 
-            if (objHeld == smokingPipeId)
+            else if (objHeld == playerCam.GetComponent<InstanceId>().coatId)
             {
-                curOpenMenu = smokingPipeInfo;
+                for (int i=0; i<objectInfo.Length; i++)
+                {
+                    if (objectInfo[i].ToString() == "CoatInfo")
+                    {
+                        curOpenMenu = objectInfo[i];
+                    }
+                }
                 curOpenMenu.SetActive(true);
             }
 
-            if (objHeld == woodenSpoonId)
+            else if (objHeld == playerCam.GetComponent<InstanceId>().tableId)
             {
-                curOpenMenu = woodenSpoonInfo;
+                for (int i=0; i<objectInfo.Length; i++)
+                {
+                    if (objectInfo[i].ToString() == "TableInfo")
+                    {
+                        curOpenMenu = objectInfo[i];
+                    }
+                }
                 curOpenMenu.SetActive(true);
             }
 
-            if (objHeld == coatId)
+            else if (objHeld == playerCam.GetComponent<InstanceId>().metalLadleId)
             {
-                curOpenMenu = coatInfo;
+                for (int i=0; i<objectInfo.Length; i++)
+                {
+                    if (objectInfo[i].ToString() == "MetalLadleInfo")
+                    {
+                        curOpenMenu = objectInfo[i];
+                    }
+                }
+                curOpenMenu.SetActive(true);
+            }
+
+            else if (objHeld == playerCam.GetComponent<InstanceId>().lampId)
+            {
+                for (int i=0; i<objectInfo.Length; i++)
+                {
+                    if (objectInfo[i].ToString() == "LampInfo")
+                    {
+                        curOpenMenu = objectInfo[i];
+                    }
+                }
+                curOpenMenu.SetActive(true);
+            }
+
+            else if (objHeld == playerCam.GetComponent<InstanceId>().knifeId)
+            {
+                for (int i=0; i<objectInfo.Length; i++)
+                {
+                    if (objectInfo[i].ToString() == "KnifeInfo")
+                    {
+                        curOpenMenu = objectInfo[i];
+                    }
+                }
+                curOpenMenu.SetActive(true);
+            }
+
+            else if (objHeld == playerCam.GetComponent<InstanceId>().hatId)
+            {
+                for (int i=0; i<objectInfo.Length; i++)
+                {
+                    if (objectInfo[i].ToString() == "HatInfo")
+                    {
+                        curOpenMenu = objectInfo[i];
+                    }
+                }
+                curOpenMenu.SetActive(true);
+            }
+
+            else if (objHeld == playerCam.GetComponent<InstanceId>().grubHoeId)
+            {
+                for (int i=0; i<objectInfo.Length; i++)
+                {
+                    if (objectInfo[i].ToString() == "GrubHoeInfo")
+                    {
+                        curOpenMenu = objectInfo[i];
+                    }
+                }
+                curOpenMenu.SetActive(true);
+            }
+
+            else if (objHeld == playerCam.GetComponent<InstanceId>().gourdLadleId_1 || objHeld == playerCam.GetComponent<InstanceId>().gourdLadleId_2)
+            {
+                for (int i=0; i<objectInfo.Length; i++)
+                {
+                    if (objectInfo[i].ToString() == "GourdLadleInfo")
+                    {
+                        curOpenMenu = objectInfo[i];
+                    }
+                }
+                curOpenMenu.SetActive(true);
+            }
+
+            else if (objHeld == playerCam.GetComponent<InstanceId>().flowerEarthenId)
+            {
+                for (int i=0; i<objectInfo.Length; i++)
+                {
+                    if (objectInfo[i].ToString() == "FlowerEarthInfo")
+                    {
+                        curOpenMenu = objectInfo[i];
+                    }
+                }
+                curOpenMenu.SetActive(true);
+            }
+
+            else if (objHeld == playerCam.GetComponent<InstanceId>().candleId)
+            {
+                for (int i=0; i<objectInfo.Length; i++)
+                {
+                    if (objectInfo[i].ToString() == "CandleInfo")
+                    {
+                        curOpenMenu = objectInfo[i];
+                    }
+                }
+                curOpenMenu.SetActive(true);
+            }
+
+            else if (objHeld == playerCam.GetComponent<InstanceId>().bedId)
+            {
+                for (int i=0; i<objectInfo.Length; i++)
+                {
+                    if (objectInfo[i].ToString() == "BedInfo")
+                    {
+                        curOpenMenu = objectInfo[i];
+                    }
+                }
                 curOpenMenu.SetActive(true);
             }
 
             else
             {
-                curOpenMenu = defaultInfo;
+                for (int i=0; i<objectInfo.Length; i++)
+                {
+                    if (objectInfo[i].ToString() == "InfoTemplate")
+                    {
+                        curOpenMenu = objectInfo[i];
+                    }
+                }
                 curOpenMenu.SetActive(true);
             }
-
-            /*
-            switch (objHeld)
-            {
-                case sugNipId:
-                {
-                    curOpenMenu = sugNipInfo;
-                    curOpenMenu.SetActive(true);
-                    break;
-                }
-
-                default:
-                {
-                    curOpenMenu = defaultInfo;
-                    curOpenMenu.SetActive(true);
-                    break;
-                }
-            }
-            */
+            
         }
 
         if (!playerCam.GetComponent<PickUpScript>().isHolding & menuOpen)
