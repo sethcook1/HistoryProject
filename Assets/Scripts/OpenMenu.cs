@@ -33,11 +33,12 @@ public class OpenMenu : MonoBehaviour
     private int coatId;
     private GameObject defaultInfo;
     private int objHeld;
-    private GameObject curOpenMenu;
+    private curOpenMenu;
     public KeyCode menuButton;
     public KeyCode exitButton;
     public bool menuOpen;
-
+    
+    
     // Start is called before the first frame update
     void Start()
     {

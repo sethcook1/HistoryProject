@@ -1050,15 +1050,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
       propertyPath: m_LocalScale.x
-      value: 7.3575253
+      value: 12.364322
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
       propertyPath: m_LocalScale.y
-      value: 6.1152782
+      value: 10.276725
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
       propertyPath: m_LocalScale.z
-      value: 7.3575253
+      value: 12.364322
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1066,7 +1066,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0346
+      value: 0.573
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1101,12 +1101,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: c2f266d8ea52e0b438291c167357e2bd, type: 2}
     - target: {fileID: 919132149155446097, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
       propertyPath: m_Name
       value: FlowerPotGreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
+      propertyPath: m_TagString
+      value: canPickUp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
@@ -1148,20 +1156,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c282687178e56542a06c119c52ba513, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!64 &216771150
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 216771147}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7016030322194801813, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
 --- !u!114 &216771151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1176,6 +1170,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: 
   objectInfo: 
+--- !u!65 &216771154
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216771147}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.023257392, y: 0.029449465, z: 0.023257392}
+  m_Center: {x: 0.0000038146973, y: 0.009525899, z: 0}
 --- !u!1001 &277240207
 PrefabInstance:
   m_ObjectHideFlags: 0
