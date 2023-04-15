@@ -258,7 +258,8 @@ MonoBehaviour:
     Plants such as rosemary, sage, basil, and coriander (known for their medical
     uses) would have been tended to in pots such as these. Pottery had many other
     uses including storing goods, cooking, and decoration. '
-  objectSize: 0.5
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
 --- !u!1001 &105942158
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -408,7 +409,8 @@ MonoBehaviour:
     relatively expensive materials and therefore, these lamps were more common in
     wealthy households. If a wick lamp was used by Christian David it would likely
     have been a simple single wick lamp with little to no decoration. '
-  objectSize: 0.5
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
 --- !u!1001 &216771145
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -438,7 +440,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.573
+      value: -0.017
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
       propertyPath: m_LocalPosition.z
@@ -549,7 +551,8 @@ MonoBehaviour:
     collection at Old Salem. Also, during Christian David\u2019s lifetime, green-glazed
     flower pots were a popular commodity made by the Old Salem potters.  A free Black
     Moravian named Peter Oliver worked at a pottery known for using this green glaze."
-  objectSize: 0.5
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
 --- !u!65 &216771154
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -696,7 +699,8 @@ MonoBehaviour:
     or eating. They were easy to carve with a knife and a block of wood that could
     be widdled into a spoon. This wooden spoon is a reproduction of spoons made during
     Christan David\u2019s lifetime."
-  objectSize: 0.5
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
 --- !u!1 &301072336
 GameObject:
   m_ObjectHideFlags: 0
@@ -721,7 +725,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 301072336}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.762}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -930,7 +934,8 @@ MonoBehaviour:
     David might have had a bucket to water the plants he cared for and another for
     his own drinking water. The bucket shown here was a simple and sturdy design
     with a thick rope handle. '
-  objectSize: 0.5
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
 --- !u!1001 &422890988
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1068,7 +1073,8 @@ MonoBehaviour:
     shows that the practice of turning bone and horn into tools originates from the
     Native Americans. Christian David may have carved several of these horn spoons
     to use in his home or he may have traded for these spoons.
-  objectSize: 0.5
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
 --- !u!1001 &533013366
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1207,7 +1213,8 @@ MonoBehaviour:
     house next to his? Why would a valuable silver object have been discarded? The
     sugar nippers' presence indicates mysteries we cannot know, the lived experiences
     we cannot access, and the questions left unanswered.
-  objectSize: 0.5
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
 --- !u!1 &547843385
 GameObject:
   m_ObjectHideFlags: 0
@@ -1513,7 +1520,8 @@ MonoBehaviour:
     and were produced, sold, and traded throughout the area. Christian David may
     have acquired a metal ladle through trade, purchase, or from the Moravian enslavers
     which he would use to cook meals over a fire.  '
-  objectSize: 0.5
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
 --- !u!1001 &757635392
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1824,7 +1832,8 @@ MonoBehaviour:
     from a bucket. Colors varied depending on the gourd. Drinking gourds or water
     gourds have been commonly used by African and Native cultures as ladles. Christian
     David may have constructed such a ladle using gourds he grew on the property.  '
-  objectSize: 0.5
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
 --- !u!1001 &870043794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1966,7 +1975,8 @@ MonoBehaviour:
     items the enslaved were allowed to own since it was a tool to help them in the
     field. As a skilled horticulturist who worked on the vineyard at lot 07, Christian
     David may have had a straw hat similar to this reproduction.
-  objectSize: 0.5
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
 --- !u!1001 &870048736
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2112,7 +2122,8 @@ MonoBehaviour:
     from a bucket. Colors varied depending on the gourd. Drinking gourds or water
     gourds have been commonly used by African and Native cultures as ladles. Christian
     David may have constructed such a ladle using gourds he grew on the property.  '
-  objectSize: 0.5
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
 --- !u!224 &885628610 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6192311855116338384, guid: eb48a3a3b1954f949972a0e9c3195362, type: 3}
@@ -2487,7 +2498,8 @@ MonoBehaviour:
     shows that the practice of turning bone and horn into tools originates from the
     Native Americans. Christian David may have carved several of these horn spoons
     to use in his home or he may have traded for these spoons.
-  objectSize: 0.5
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
 --- !u!1001 &1289069836
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2854,7 +2866,8 @@ MonoBehaviour:
   objectInfo: This coat is modeled on a reproduction used by live interpreters at
     Salem. Likely, Christian David possessed some such garment and perhaps had one
     designated for work in the garden and one formal one for church.
-  objectSize: 0.5
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
 --- !u!1001 &1549116733
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3003,7 +3016,8 @@ MonoBehaviour:
     with many other horticultural and farming tools represent the physical demand
     of the enslaved to provide a more lucrative and comfortable livelihood life for
     the enslavers.  '
-  objectSize: 0.5
+  objectScaleSizeF: 35
+  objectScaleSize: {x: 0, y: 0, z: 0}
 --- !u!1001 &1573273869
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3152,7 +3166,8 @@ MonoBehaviour:
     a fire while others would use materials such as straw to create sleeping pallets.
     This is based on a bed in the Old Salem collection cataloged as a \u201CSlave
     bed\u201D without further provenance. "
-  objectSize: 0.5
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
 --- !u!1001 &1618358869
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3251,7 +3266,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: 
   objectInfo: 
-  objectSize: 0
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
 --- !u!1001 &1644305309
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3391,7 +3407,8 @@ MonoBehaviour:
     this was the case for Christan David, as his price dropped by fifty percent when
     he was sold in the Moravian community. Having a stool would have been a helpful
     convenience within the home of the enslaved. '
-  objectSize: 0.5
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
 --- !u!1001 &1705871517
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3541,7 +3558,8 @@ MonoBehaviour:
     may have worked in his shop. Christian David could have had pewter plates in
     his home if his enslaver had purchased them for him or handed them down to him
     when they no longer wanted them. "
-  objectSize: 0.5
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
 --- !u!1001 &1710677226
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3677,7 +3695,8 @@ MonoBehaviour:
     home for dining, storage, or as a flat work surface. Unfortunately, because of
     the ubiquity of tables, most do not survive. This replica in the collections
     of Old Salem is an example of a common style contemporary with Christian David.
-  objectSize: 0.5
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
 --- !u!65 &1710677238
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3839,7 +3858,8 @@ MonoBehaviour:
     making clothes or cooking a meal for her children or Davy carving himself a wooden
     spoon. It was common for candles and holders to be placed near doors for late
     night work or walking between outbuildings of the property at night.
-  objectSize: 0.5
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
 --- !u!1 &1773642783
 GameObject:
   m_ObjectHideFlags: 0
@@ -4088,7 +4108,8 @@ MonoBehaviour:
     useful for tending crops and medicinal plants. Tools such as these represent
     the growth and development of skills by the enslaved. Christian David, or Davy,
     may have used such a tool for cutting botany samples with von Schweinitz. '
-  objectSize: 0.5
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
 --- !u!1001 &1944913805
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4226,7 +4247,8 @@ MonoBehaviour:
     at the Salem Potter Shop. Others were entirely of clay with longer stems. The
     popular design in Old Salem was a simple clay bowl with a reed or cane stem.
     Fragments of a pipe were found at the excavation of the David dwelling. "
-  objectSize: 0.5
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
 --- !u!1 &1967377536
 GameObject:
   m_ObjectHideFlags: 0
@@ -4467,7 +4489,8 @@ MonoBehaviour:
     in their own cabins as well. By interpreting the simple design of the broom found
     at Salem at the time, this likely could have been a broom used by an enslaved
     person in their own homes. '
-  objectSize: 0.5
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
 --- !u!1 &1984677108
 GameObject:
   m_ObjectHideFlags: 0
@@ -4927,7 +4950,8 @@ MonoBehaviour:
     were easier to make or less expensive than porcelain. Glazed pieces like this
     mug could have been made by enslaved or freed craftspeople. White Moravians in
     Salem were known for making and selling slip-glazed earthenware. '
-  objectSize: 0.5
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
 --- !u!1001 &2082342679
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5065,7 +5089,8 @@ MonoBehaviour:
     shows that the practice of turning bone and horn into tools originates from the
     Native Americans. Christian David may have carved several of these horn spoons
     to use in his home or he may have traded for these spoons.
-  objectSize: 0.5
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
 --- !u!1 &2122267318
 GameObject:
   m_ObjectHideFlags: 0

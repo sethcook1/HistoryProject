@@ -18,8 +18,9 @@ public class PickUpScript : MonoBehaviour
     private bool canDrop = true; //this is needed so we don't throw/drop object when rotating the object
     private int LayerNumber; //layer index
     public bool isHolding = false;
-   
-    public float objSize;
+
+    private Vector3 objOriginalScale;
+    private Vector3 objShrinkScale;
 
     void Start()
     {
@@ -69,8 +70,10 @@ public class PickUpScript : MonoBehaviour
     void PickUpObject(GameObject pickUpObj)
     {
         if (pickUpObj.GetComponent<Rigidbody>()) //make sure the object has a RigidBody
-        {
+        {    
             heldObj = pickUpObj; //assign heldObj to the object that was hit by the raycast (no longer == null)
+            objOriginalScale = heldObj.transform.localScale;
+            objShrinkScale = heldObj.GetComponent<InspectInfo>().objectScaleSize;
             heldObjRb = pickUpObj.GetComponent<Rigidbody>(); //assign Rigidbody
             heldObjRb.isKinematic = true;
             heldObjRb.transform.parent = holdPos.transform; //parent object to holdposition
@@ -78,11 +81,11 @@ public class PickUpScript : MonoBehaviour
             //make sure object doesnt collide with player, it can cause weird bugs
             Physics.IgnoreCollision(heldObj.GetComponent<Collider>(), player.GetComponent<Collider>(), true);
             isHolding = true;
-            
 
-           
+
+
             //shrinks object
-            heldObj.transform.localScale = new Vector3(objSize, objSize, objSize);
+            heldObj.transform.localScale = objShrinkScale;
         }
     }
     void DropObject()
@@ -92,7 +95,7 @@ public class PickUpScript : MonoBehaviour
         heldObj.layer = 0; //object assigned back to default layer
         heldObjRb.isKinematic = false;
         heldObj.transform.parent = null; //unparent object
-        heldObj.transform.localScale = new Vector3(1f, 1f, 1f);// Set the object's scale back to its original size
+        heldObj.transform.localScale = objOriginalScale; // Set the object's scale back to its original size
 
         heldObj = null; //undefine game object
         isHolding = false;

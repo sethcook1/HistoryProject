@@ -5,7 +5,7 @@ using UnityEngine;
 public class InspectionScript : MonoBehaviour
 {
     public Camera view;
-    public GameObject collided_obj;
+    public GameObject collided_obj = null;
     public KeyCode rayButton;
     public Ray ray_direction;
     public string objecthitName;
@@ -22,6 +22,7 @@ public class InspectionScript : MonoBehaviour
 
     // Update is called once per frame
     
+    /*
     void FixedUpdate()
     {
         //send a ray in the direction we are looking (the center of the player's camera)
@@ -50,11 +51,24 @@ public class InspectionScript : MonoBehaviour
             Debug.DrawRay(ray_direction.origin, ray_direction.direction * 100, Color.yellow, 1);
         }
     }
+    */
     
-    /*
     void Update()
     {
-        collided_obj = pickupScriptObj.GetComponent<PickUpScript>().heldObj;
+        if (pickupScriptObj.GetComponent<PickUpScript>().heldObj != null) //if an object is being held
+        {
+            collided_obj = pickupScriptObj.GetComponent<PickUpScript>().heldObj;
+        }
+        if (collided_obj.GetComponent<InspectInfo>() != null) //check if the object picked up has an InspectInfo component on it
+        {
+            objecthitName = collided_obj.GetComponent<InspectInfo>().objectName;
+            objecthitInfo = collided_obj.GetComponent<InspectInfo>().objectInfo;
+        }
+        else //the component is missing
+        {
+            objecthitName = "";
+            objecthitInfo = "";
+        }
     }
-    */
+    
 }

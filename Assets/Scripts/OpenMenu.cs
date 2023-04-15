@@ -32,6 +32,8 @@ public class OpenMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        objectName.text = playerObj.GetComponent<InspectionScript>().objecthitName;
+        objectInfo.text = playerObj.GetComponent<InspectionScript>().objecthitInfo;
         if (Input.GetKeyDown(exitButton) & startMenu.activeInHierarchy)
         {
             startMenu.SetActive(false);
@@ -41,8 +43,6 @@ public class OpenMenu : MonoBehaviour
         if (playerCam.GetComponent<PickUpScript>().isHolding & !menuOpen)
         {
             menuOpen = true;
-            objectName.text = playerObj.GetComponent<InspectionScript>().objecthitName;
-            objectInfo.text = playerObj.GetComponent<InspectionScript>().objecthitInfo;
             objectMenu.gameObject.SetActive(true);           
         }
 
