@@ -15,7 +15,8 @@ public class OpenMenu : MonoBehaviour
     public KeyCode menuButton;
     public KeyCode exitButton;
     public bool menuOpen;
-
+    
+    
     // Start is called before the first frame update
     void Start()
     {
