@@ -10,6 +10,7 @@ public class PickupReturn : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //store where the object is located at start. This defines where we will return it to.
         objOriginalPosition = this.transform.position;
         objOriginalRotation = this.transform.rotation;
         selfRigidbody = (Rigidbody)this.GetComponent("Rigidbody");

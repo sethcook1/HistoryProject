@@ -14,8 +14,8 @@ public class Cam_toggle : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //toggle camera off and then on which
-        //should fix the camera 
+        //a bug seemingly with WebGL causes you to not be to set a main camera. However, when a camera is enabled, it sets it as the main camera.
+        //this script simply toggles the player's camera off and back on to fix this issue.
         cam1.SetActive(false);
         cam1.SetActive(true);
     }

@@ -234,6 +234,18 @@ PrefabInstance:
       propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6127914517955105297, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6127914517955105297, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6127914517955105297, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
 --- !u!224 &40506056 stripped
@@ -1695,6 +1707,22 @@ PrefabInstance:
       propertyPath: m_ScrollSensitivity
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3451575783343139350, guid: eb48a3a3b1954f949972a0e9c3195362, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3451575783343139350, guid: eb48a3a3b1954f949972a0e9c3195362, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3451575783343139350, guid: eb48a3a3b1954f949972a0e9c3195362, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3451575783343139350, guid: eb48a3a3b1954f949972a0e9c3195362, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 3908107543269568114, guid: eb48a3a3b1954f949972a0e9c3195362, type: 3}
       propertyPath: m_text
       value: Object Name
@@ -2498,6 +2526,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 2007637882}
   holdPos: {fileID: 301072337}
+  pickupKey: 101
   rotateKey: 114
   throwForce: 500
   pickUpRange: 5
@@ -4694,7 +4723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c34ac3221945bb340a1c4e8dc704d05f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 14
+  speed: 7
   orientation: {fileID: 689998650}
   turnSpeed: 4
   moveSpeed: 4
@@ -4722,7 +4751,6 @@ MonoBehaviour:
   Canvas: {fileID: 1773642783}
   objectName: {fileID: 1410350430}
   objectInfo: {fileID: 1808735956}
-  menuButton: 102
   exitButton: 27
   menuOpen: 0
 --- !u!114 &2007637891
@@ -4739,7 +4767,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   view: {fileID: 0}
   collided_obj: {fileID: 1573273871}
-  rayButton: 256
   objecthitName: 
   objecthitInfo: 
 --- !u!1001 &2024460158

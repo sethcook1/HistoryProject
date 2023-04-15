@@ -7,16 +7,17 @@ public class PickUpScript : MonoBehaviour
     public GameObject player;
     public Transform holdPos;
 
+    public KeyCode pickupKey = KeyCode.E;
     public KeyCode rotateKey = KeyCode.R;
  
-    public float throwForce = 500f; //force at which the object is thrown at
-    public float pickUpRange = 5f; //how far the player can pickup the object from
-    private float rotationSpeed = 100f; //how fast/slow the object is rotated in relation to mouse movement
-    private GameObject Objects; //parent object that holds all pickupable objects
-    public GameObject heldObj; //object which we pick up
-    private Rigidbody heldObjRb; //rigidbody of object we pick up
-    private bool canDrop = true; //this is needed so we don't throw/drop object when rotating the object
-    private int LayerNumber; //layer index
+    public float throwForce = 500f;      //force at which the object is thrown at
+    public float pickUpRange = 5f;       //how far the player can pickup the object from
+    private float rotationSpeed = 100f;  //how fast/slow the object is rotated in relation to mouse movement
+    private GameObject Objects;          //parent object that holds all pickupable objects
+    public GameObject heldObj;           //object which we pick up
+    private Rigidbody heldObjRb;         //rigidbody of object we pick up
+    private bool canDrop = true;         //this is needed so we don't throw/drop object when rotating the object
+    private int LayerNumber;             //layer index
     public bool isHolding = false;
 
     private Vector3 objOriginalScale;
@@ -30,7 +31,7 @@ public class PickUpScript : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E)) //change E to whichever key you want to press to pick up
+        if (Input.GetKeyDown(pickupKey)) //change E to whichever key you want to press to pick up
         {
             if (heldObj == null) //if currently not holding anything
             {
@@ -72,8 +73,8 @@ public class PickUpScript : MonoBehaviour
         if (pickUpObj.GetComponent<Rigidbody>()) //make sure the object has a RigidBody
         {    
             heldObj = pickUpObj; //assign heldObj to the object that was hit by the raycast (no longer == null)
-            objOriginalScale = heldObj.transform.localScale;
-            objShrinkScale = heldObj.GetComponent<InspectInfo>().objectScaleSize;
+            objOriginalScale = heldObj.transform.localScale;   //store the object's scale to return it to normal later
+            objShrinkScale = heldObj.GetComponent<InspectInfo>().objectScaleSize;  //get the scale we want it shrinked to, stored on the object itself
             heldObjRb = pickUpObj.GetComponent<Rigidbody>(); //assign Rigidbody
             heldObjRb.isKinematic = true;
             heldObjRb.transform.parent = holdPos.transform; //parent object to holdposition
@@ -81,8 +82,6 @@ public class PickUpScript : MonoBehaviour
             //make sure object doesnt collide with player, it can cause weird bugs
             Physics.IgnoreCollision(heldObj.GetComponent<Collider>(), player.GetComponent<Collider>(), true);
             isHolding = true;
-
-
 
             //shrinks object
             heldObj.transform.localScale = objShrinkScale;
@@ -119,6 +118,7 @@ public class PickUpScript : MonoBehaviour
 
     }
     }
+    /*
     void ThrowObject()
     {
         //same as drop function, but add force to object before undefining it
@@ -129,6 +129,7 @@ public class PickUpScript : MonoBehaviour
         heldObjRb.AddForce(transform.forward * throwForce);
         heldObj = null;
     }
+    */
     void StopClipping() //function only called when dropping/throwing
     {
         var clipRange = Vector3.Distance(heldObj.transform.position, transform.position); //distance from holdPos to the camera

@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class InspectInfo : MonoBehaviour
 {
-    public string objectName;
-    public string objectInfo;
-    public float objectScaleSizeF = 1;
-    public Vector3 objectScaleSize;
+    public string objectName;            //name of the object to be displayed in the UI
+    public string objectInfo;            //info of the object to be displayed in the UI
+    public float objectScaleSizeF = 1;   //what the user wants to change the scale to when picked up. 1 means the object does not change scale
+    public Vector3 objectScaleSize;      //vector that is calculated in this script, but utilized in PickUpScript
     // Start is called before the first frame update
     void Start()
     {

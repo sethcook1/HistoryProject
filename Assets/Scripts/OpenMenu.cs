@@ -5,16 +5,15 @@ using TMPro;
 
 public class OpenMenu : MonoBehaviour
 {
-    public GameObject Canvas;
-    private GameObject startMenu;
-    private GameObject playerCam;
-    private GameObject playerObj;
-    private GameObject objectMenu;
-    public TextMeshProUGUI objectName;
-    public TextMeshProUGUI objectInfo;
-    public KeyCode menuButton;
-    public KeyCode exitButton;
-    public bool menuOpen;
+    public GameObject Canvas;             //object for the Canvas
+    private GameObject startMenu;         //object for the startMenu
+    private GameObject playerCam;         //the player's camera
+    private GameObject playerObj;         //the object that is the player
+    private GameObject objectMenu;        //object that is the Info UI
+    public TextMeshProUGUI objectName;    //UI textbox for the Name
+    public TextMeshProUGUI objectInfo;    //UI textbox for the Info
+    public KeyCode exitButton;            //button that is pressed to exit the menu
+    public bool menuOpen;                 //true if the menu is open
     
     
     // Start is called before the first frame update
@@ -24,8 +23,8 @@ public class OpenMenu : MonoBehaviour
         startMenu = GameObject.Find("StartMenu");
         playerObj = GameObject.Find("Player");
         objectMenu = GameObject.Find("InfoTemplate");
-        objectMenu.gameObject.SetActive(false);
-        startMenu.gameObject.SetActive(true);        
+        objectMenu.SetActive(false);
+        startMenu.SetActive(true);        
         menuOpen = true;
     }
 
@@ -43,13 +42,13 @@ public class OpenMenu : MonoBehaviour
         if (playerCam.GetComponent<PickUpScript>().isHolding & !menuOpen)
         {
             menuOpen = true;
-            objectMenu.gameObject.SetActive(true);           
+            objectMenu.SetActive(true);           
         }
 
         if (!playerCam.GetComponent<PickUpScript>().isHolding & menuOpen)
         {
             menuOpen = false;
-            objectMenu.gameObject.SetActive(false);
+            objectMenu.SetActive(false);
         }
     }
 

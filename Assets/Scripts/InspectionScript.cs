@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class InspectionScript : MonoBehaviour
 {
-    public Camera view;
-    public GameObject collided_obj = null;
-    public KeyCode rayButton;
-    public Ray ray_direction;
-    public string objecthitName;
-    public string objecthitInfo;
-    private RaycastHit hit;
-    private GameObject pickupScriptObj;
+    public Camera view;                     //the player's camera
+    public GameObject collided_obj = null;  //the object hit by a raycast, or the object grabbed from the pickup script, depending on what functions are uncommented.
+    public string objecthitName;            //object's name, if an InspectInfo script is present on collided_obj
+    public string objecthitInfo;            //object's info, if an InspectInfo script is present on collided_obj
+    private Ray ray_direction;              //holds the direction we want the raycast to go
+    private RaycastHit hit;                 //holds information on what the raycast it
+    private GameObject pickupScriptObj;     //the object that the PickUpScript is on
 
     // Start is called before the first frame update
     void Start()
@@ -20,8 +19,6 @@ public class InspectionScript : MonoBehaviour
         pickupScriptObj = view.gameObject;
     }
 
-    // Update is called once per frame
-    
     /*
     void FixedUpdate()
     {
