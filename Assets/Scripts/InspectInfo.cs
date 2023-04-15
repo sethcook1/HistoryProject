@@ -23,7 +23,7 @@ public class InspectInfo : MonoBehaviour
     {
         if(Input.GetKeyDown("e")){
             //transform.localScale=new Vector3(1,1, 1);
-            transform.localScale = new Vector3(objectSize, objectSize, objectSize);
+            this.transform.localScale = new Vector3(objectSize, objectSize, objectSize);
         }
 
         else if(Input.GetKeyUp("e")){

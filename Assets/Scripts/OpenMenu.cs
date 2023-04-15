@@ -33,7 +33,7 @@ public class OpenMenu : MonoBehaviour
     private int coatId;
     private GameObject defaultInfo;
     private int objHeld;
-    private curOpenMenu;
+    private GameObject curOpenMenu;
     public KeyCode menuButton;
     public KeyCode exitButton;
     public bool menuOpen;
