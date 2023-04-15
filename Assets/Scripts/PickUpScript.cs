@@ -19,7 +19,7 @@ public class PickUpScript : MonoBehaviour
     private int LayerNumber; //layer index
     public bool isHolding = false;
    
-
+    public float objSize;
 
     void Start()
     {
@@ -78,6 +78,11 @@ public class PickUpScript : MonoBehaviour
             //make sure object doesnt collide with player, it can cause weird bugs
             Physics.IgnoreCollision(heldObj.GetComponent<Collider>(), player.GetComponent<Collider>(), true);
             isHolding = true;
+            
+
+           
+            //shrinks object
+            heldObj.transform.localScale = new Vector3(objSize, objSize, objSize);
         }
     }
     void DropObject()
@@ -87,6 +92,8 @@ public class PickUpScript : MonoBehaviour
         heldObj.layer = 0; //object assigned back to default layer
         heldObjRb.isKinematic = false;
         heldObj.transform.parent = null; //unparent object
+        heldObj.transform.localScale = new Vector3(1f, 1f, 1f);// Set the object's scale back to its original size
+
         heldObj = null; //undefine game object
         isHolding = false;
     }
