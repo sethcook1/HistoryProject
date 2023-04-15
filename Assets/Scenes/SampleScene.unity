@@ -258,7 +258,6 @@ MonoBehaviour:
     Plants such as rosemary, sage, basil, and coriander (known for their medical
     uses) would have been tended to in pots such as these. Pottery had many other
     uses including storing goods, cooking, and decoration. '
-  objectSize: 0.5
 --- !u!1001 &105942158
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -408,7 +407,6 @@ MonoBehaviour:
     relatively expensive materials and therefore, these lamps were more common in
     wealthy households. If a wick lamp was used by Christian David it would likely
     have been a simple single wick lamp with little to no decoration. '
-  objectSize: 0.5
 --- !u!1001 &216771145
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -549,7 +547,6 @@ MonoBehaviour:
     collection at Old Salem. Also, during Christian David\u2019s lifetime, green-glazed
     flower pots were a popular commodity made by the Old Salem potters.  A free Black
     Moravian named Peter Oliver worked at a pottery known for using this green glaze."
-  objectSize: 0.5
 --- !u!65 &216771154
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -696,7 +693,6 @@ MonoBehaviour:
     or eating. They were easy to carve with a knife and a block of wood that could
     be widdled into a spoon. This wooden spoon is a reproduction of spoons made during
     Christan David\u2019s lifetime."
-  objectSize: 0.5
 --- !u!1 &301072336
 GameObject:
   m_ObjectHideFlags: 0
@@ -930,7 +926,6 @@ MonoBehaviour:
     David might have had a bucket to water the plants he cared for and another for
     his own drinking water. The bucket shown here was a simple and sturdy design
     with a thick rope handle. '
-  objectSize: 0.5
 --- !u!1001 &422890988
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1068,7 +1063,6 @@ MonoBehaviour:
     shows that the practice of turning bone and horn into tools originates from the
     Native Americans. Christian David may have carved several of these horn spoons
     to use in his home or he may have traded for these spoons.
-  objectSize: 0.5
 --- !u!1001 &533013366
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1207,7 +1201,6 @@ MonoBehaviour:
     house next to his? Why would a valuable silver object have been discarded? The
     sugar nippers' presence indicates mysteries we cannot know, the lived experiences
     we cannot access, and the questions left unanswered.
-  objectSize: 0.5
 --- !u!1 &547843385
 GameObject:
   m_ObjectHideFlags: 0
@@ -1513,7 +1506,6 @@ MonoBehaviour:
     and were produced, sold, and traded throughout the area. Christian David may
     have acquired a metal ladle through trade, purchase, or from the Moravian enslavers
     which he would use to cook meals over a fire.  '
-  objectSize: 0.5
 --- !u!1001 &757635392
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1603,7 +1595,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6192311855116338384, guid: eb48a3a3b1954f949972a0e9c3195362, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6192311855116338384, guid: eb48a3a3b1954f949972a0e9c3195362, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1824,7 +1816,6 @@ MonoBehaviour:
     from a bucket. Colors varied depending on the gourd. Drinking gourds or water
     gourds have been commonly used by African and Native cultures as ladles. Christian
     David may have constructed such a ladle using gourds he grew on the property.  '
-  objectSize: 0.5
 --- !u!1001 &870043794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1966,7 +1957,6 @@ MonoBehaviour:
     items the enslaved were allowed to own since it was a tool to help them in the
     field. As a skilled horticulturist who worked on the vineyard at lot 07, Christian
     David may have had a straw hat similar to this reproduction.
-  objectSize: 0.5
 --- !u!1001 &870048736
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2112,7 +2102,6 @@ MonoBehaviour:
     from a bucket. Colors varied depending on the gourd. Drinking gourds or water
     gourds have been commonly used by African and Native cultures as ladles. Christian
     David may have constructed such a ladle using gourds he grew on the property.  '
-  objectSize: 0.5
 --- !u!224 &885628610 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6192311855116338384, guid: eb48a3a3b1954f949972a0e9c3195362, type: 3}
@@ -2350,6 +2339,120 @@ MonoBehaviour:
   pickUpRange: 5
   heldObj: {fileID: 0}
   isHolding: 0
+  objSize: 0
+--- !u!1001 &1252264904
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1773642787}
+    m_Modifications:
+    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 771008196225689919, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3244550291192286253, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_Name
+      value: StartMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331576062274500151, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331576062274500151, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331576062274500151, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
 --- !u!1001 &1257653164
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2487,213 +2590,6 @@ MonoBehaviour:
     shows that the practice of turning bone and horn into tools originates from the
     Native Americans. Christian David may have carved several of these horn spoons
     to use in his home or he may have traded for these spoons.
-  objectSize: 0.5
---- !u!1001 &1289069836
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1773642787}
-    m_Modifications:
-    - target: {fileID: 54097831545004363, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_text
-      value: "Welcome to the virtual reproduction of the dwelling of Christian David
-        in Salem, North Carolin. Born around 1780, \u201CDavy\u201D (as he was known
-        until he was baptized into the Moravian Church in 1824), became a sexton
-        of the Salem \u201CNegro Church\u201D (named St. Phillips Church in 1914).
-        The Moravians are a pre-Lutheran, Protestant sect with a strong missionizing
-        focus who created two large settlements in colonial America: in Salem and
-        in Bethlehem, Pennsylvania. Salem was founded in 1766 as the mercantile center
-        of the 100,000 acre tract of land named Wachovia.\r\n\r\nAs a \u201Ccongregation
-        town,\u201D all of the property of Salem was owned by the church. Initially,
-        slavery was outlawed by the church administration, but as the Moravians there
-        became more American and more Southern, some white Moravians in Salem began
-        renting slave labor and then enslaved people themselves. The church administration,
-        too, enslaved Africans and African Americans, including David. He was purchased
-        in 1805 for about $400 to work in the distillery at another Moravian settlement
-        in Wachovia.\r\n\r\nThe administration moved David to the Wachovia Administration
-        Farm, also called the \u201CNegro Quarter,\u201D in Salem in 1817 and by
-        1821 the new Moravian Congregation administrator, Lewis David von Schweinitz
-        was in charge of him. The next administrator, Theodore Schulz, had a house
-        built for David in 1835 behind his own, where we assume he lived until his
-        death in 1839.\r\n\r\nThis digital model is based on Salem building codes,
-        receipts of building materials, historic maps, images of comparable buildings,
-        and a 1977 excavation report. Although historical sources contain some biographical
-        information about David, we do not know about what objects he might have
-        kept in this dwelling. In addition to David\u2019s prominent role in the
-        church, we know that he was entrusted with the care of a vineyard with 250
-        vines and he likely accompanied and possibly even guided von Schweinitz on
-        botanical research trips in Wachovia. \r\n\r\nTo learn more about these objects,
-        look at them with the on-screen reticle and press \"E\". While holding an
-        object you can hold down \"R\" to rotate them.\n\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 771008196225689919, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1646522490747191703, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 160
-      objectReference: {fileID: 0}
-    - target: {fileID: 3244550291192286253, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_Name
-      value: StartMenu
-      objectReference: {fileID: 0}
-    - target: {fileID: 4331576062274500151, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4331576062274500151, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4331576062274500151, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5144006522657151429, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5144006522657151429, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5144006522657151429, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5144006522657151429, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5144006522657151429, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: -20
-      objectReference: {fileID: 0}
-    - target: {fileID: 5144006522657151429, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: -70
-      objectReference: {fileID: 0}
-    - target: {fileID: 5144006522657151429, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5144006522657151429, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5465234696990659213, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5465234696990659213, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6127914517955105297, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6127914517955105297, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6127914517955105297, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
---- !u!224 &1289069837 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
-  m_PrefabInstance: {fileID: 1289069836}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1410350430 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3908107543269568114, guid: eb48a3a3b1954f949972a0e9c3195362, type: 3}
@@ -2854,7 +2750,6 @@ MonoBehaviour:
   objectInfo: This coat is modeled on a reproduction used by live interpreters at
     Salem. Likely, Christian David possessed some such garment and perhaps had one
     designated for work in the garden and one formal one for church.
-  objectSize: 0.5
 --- !u!1001 &1549116733
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3003,7 +2898,6 @@ MonoBehaviour:
     with many other horticultural and farming tools represent the physical demand
     of the enslaved to provide a more lucrative and comfortable livelihood life for
     the enslavers.  '
-  objectSize: 0.5
 --- !u!1001 &1573273869
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3152,7 +3046,6 @@ MonoBehaviour:
     a fire while others would use materials such as straw to create sleeping pallets.
     This is based on a bed in the Old Salem collection cataloged as a \u201CSlave
     bed\u201D without further provenance. "
-  objectSize: 0.5
 --- !u!1001 &1618358869
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3251,7 +3144,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: 
   objectInfo: 
-  objectSize: 0
 --- !u!1001 &1644305309
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3391,7 +3283,11 @@ MonoBehaviour:
     this was the case for Christan David, as his price dropped by fifty percent when
     he was sold in the Moravian community. Having a stool would have been a helpful
     convenience within the home of the enslaved. '
-  objectSize: 0.5
+--- !u!224 &1665097352 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
+  m_PrefabInstance: {fileID: 1252264904}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1705871517
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3541,7 +3437,6 @@ MonoBehaviour:
     may have worked in his shop. Christian David could have had pewter plates in
     his home if his enslaver had purchased them for him or handed them down to him
     when they no longer wanted them. "
-  objectSize: 0.5
 --- !u!1001 &1710677226
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3677,7 +3572,6 @@ MonoBehaviour:
     home for dining, storage, or as a flat work surface. Unfortunately, because of
     the ubiquity of tables, most do not survive. This replica in the collections
     of Old Salem is an example of a common style contemporary with Christian David.
-  objectSize: 0.5
 --- !u!65 &1710677238
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3839,7 +3733,6 @@ MonoBehaviour:
     making clothes or cooking a meal for her children or Davy carving himself a wooden
     spoon. It was common for candles and holders to be placed near doors for late
     night work or walking between outbuildings of the property at night.
-  objectSize: 0.5
 --- !u!1 &1773642783
 GameObject:
   m_ObjectHideFlags: 0
@@ -3933,8 +3826,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2122267319}
-  - {fileID: 1289069837}
   - {fileID: 885628610}
+  - {fileID: 1665097352}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4088,7 +3981,6 @@ MonoBehaviour:
     useful for tending crops and medicinal plants. Tools such as these represent
     the growth and development of skills by the enslaved. Christian David, or Davy,
     may have used such a tool for cutting botany samples with von Schweinitz. '
-  objectSize: 0.5
 --- !u!1001 &1944913805
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4226,7 +4118,6 @@ MonoBehaviour:
     at the Salem Potter Shop. Others were entirely of clay with longer stems. The
     popular design in Old Salem was a simple clay bowl with a reed or cane stem.
     Fragments of a pipe were found at the excavation of the David dwelling. "
-  objectSize: 0.5
 --- !u!1 &1967377536
 GameObject:
   m_ObjectHideFlags: 0
@@ -4467,7 +4358,6 @@ MonoBehaviour:
     in their own cabins as well. By interpreting the simple design of the broom found
     at Salem at the time, this likely could have been a broom used by an enslaved
     person in their own homes. '
-  objectSize: 0.5
 --- !u!1 &1984677108
 GameObject:
   m_ObjectHideFlags: 0
@@ -4927,7 +4817,143 @@ MonoBehaviour:
     were easier to make or less expensive than porcelain. Glazed pieces like this
     mug could have been made by enslaved or freed craftspeople. White Moravians in
     Salem were known for making and selling slip-glazed earthenware. '
-  objectSize: 0.5
+--- !u!1 &2038863407
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2038863408}
+  - component: {fileID: 2038863410}
+  - component: {fileID: 2038863409}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2038863408
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038863407}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 885628610}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -484.4, y: -177.4}
+  m_SizeDelta: {x: 200, y: 134.479}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2038863409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038863407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: '[R]: To Rotate
+
+    [E]: To Drop Item'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190289
+  m_fontColor: {r: 0.81960785, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 28
+  m_fontSizeBase: 28
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -91.123474, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &2038863410
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038863407}
+  m_CullTransparentMesh: 1
 --- !u!1001 &2082342679
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5065,7 +5091,6 @@ MonoBehaviour:
     shows that the practice of turning bone and horn into tools originates from the
     Native Americans. Christian David may have carved several of these horn spoons
     to use in his home or he may have traded for these spoons.
-  objectSize: 0.5
 --- !u!1 &2122267318
 GameObject:
   m_ObjectHideFlags: 0
