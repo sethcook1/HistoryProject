@@ -100,7 +100,7 @@ public class PickUpScript : MonoBehaviour
         if (Input.GetKey(rotateKey)) // hold R key to rotate, change this to whatever key you want
     {
         canDrop = false; // make sure throwing can't occur during rotating
-        heldObj.transform.Rotate(0f, rotationSpeed * Time.deltaTime, 0f, Space.Self); // Rotate the object around the Y-axis
+        heldObj.transform.Rotate(0f, rotationSpeed * Time.deltaTime, 0f, Space.World); // Rotate the object around the Y-axis
     }
     else
     {

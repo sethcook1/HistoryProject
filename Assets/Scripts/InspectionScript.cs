@@ -24,16 +24,27 @@ public class InspectionScript : MonoBehaviour
     
     void FixedUpdate()
     {
+        //send a ray in the direction we are looking (the center of the player's camera)
         ray_direction = view.ScreenPointToRay(Input.mousePosition);
-           
+        
+        //if the ray hits a collider
         if (Physics.Raycast(ray_direction, out hit))
         {
             Debug.DrawRay(ray_direction.origin, ray_direction.direction * 100, Color.yellow, 1);
             collided_obj = hit.collider.gameObject;
-            objecthitName = collided_obj.GetComponent<InspectInfo>().objectName;
-            objecthitInfo = collided_obj.GetComponent<InspectInfo>().objectInfo;
+            if (collided_obj.GetComponent<InspectInfo>() != null) //check if the collider we hit has an InspectInfo component on it
+            {
+                objecthitName = collided_obj.GetComponent<InspectInfo>().objectName;
+                objecthitInfo = collided_obj.GetComponent<InspectInfo>().objectInfo;
+            }
+            else //the component is missing
+            {
+                objecthitName = "";
+                objecthitInfo = "";
+            }
+            
         }
-
+        //if the ray does not hit anything
         else
         {
             Debug.DrawRay(ray_direction.origin, ray_direction.direction * 100, Color.yellow, 1);
