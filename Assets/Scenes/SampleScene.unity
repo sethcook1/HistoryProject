@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.25834215, g: 0.5624254, b: 0.55613744, a: 1}
+  m_IndirectSpecularColor: {r: 0.2580508, g: 0.5626765, b: 0.556624, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -258,6 +258,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: 
   objectInfo: 
+  objectSize: 0.5
 --- !u!1001 &105942158
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -400,6 +401,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: 
   objectInfo: 
+  objectSize: 0.5
 --- !u!1 &106732568
 GameObject:
   m_ObjectHideFlags: 0
@@ -1170,6 +1172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: 
   objectInfo: 
+  objectSize: 0.5
 --- !u!65 &216771154
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1563,6 +1566,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: 
   objectInfo: 
+  objectSize: 0.5
 --- !u!1 &301072336
 GameObject:
   m_ObjectHideFlags: 0
@@ -1802,6 +1806,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: Bucket
   objectInfo: 
+  objectSize: 0.5
 --- !u!1001 &422890988
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1932,6 +1937,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: 
   objectInfo: 
+  objectSize: 0.5
 --- !u!224 &520410806 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3258102094092073033, guid: 1d05eabcd6a0043b5a01831f171a1fa3, type: 3}
@@ -2067,6 +2073,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: 
   objectInfo: 
+  objectSize: 0.5
 --- !u!1 &547843385
 GameObject:
   m_ObjectHideFlags: 0
@@ -2492,6 +2499,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: 
   objectInfo: 
+  objectSize: 0.5
 --- !u!1001 &757635392
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2763,6 +2771,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: 
   objectInfo: 
+  objectSize: 0.5
 --- !u!224 &830582221 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2916845458682888640, guid: 6294e2c1548aa4b5a898fd80d7a98127, type: 3}
@@ -3027,6 +3036,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: 
   objectInfo: 
+  objectSize: 0.5
 --- !u!1001 &870048736
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3169,6 +3179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: 
   objectInfo: 
+  objectSize: 0.5
 --- !u!224 &885628610 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6192311855116338384, guid: eb48a3a3b1954f949972a0e9c3195362, type: 3}
@@ -3796,6 +3807,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: 
   objectInfo: 
+  objectSize: 0.5
 --- !u!1001 &1285922701
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4211,6 +4223,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: 
   objectInfo: 
+  objectSize: 0.5
 --- !u!1001 &1549116733
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4353,6 +4366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: 
   objectInfo: 
+  objectSize: 0.5
 --- !u!1001 &1573273869
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4495,6 +4509,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: 
   objectInfo: 
+  objectSize: 0.5
 --- !u!224 &1593694131 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3309089209949684710, guid: f4d35162044ce7f4dbf94aeff3eb1ee7, type: 3}
@@ -4598,6 +4613,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: 
   objectInfo: 
+  objectSize: 0
 --- !u!1001 &1644305309
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4728,6 +4744,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: 
   objectInfo: 
+  objectSize: 0.5
 --- !u!1001 &1705871517
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4870,6 +4887,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: 
   objectInfo: 
+  objectSize: 0.5
 --- !u!1001 &1710677226
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5013,6 +5031,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: 
   objectInfo: 
+  objectSize: 0.5
 --- !u!1001 &1711670478
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5155,6 +5174,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: 
   objectInfo: 
+  objectSize: 0.5
 --- !u!1 &1773642783
 GameObject:
   m_ObjectHideFlags: 0
@@ -5400,6 +5420,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: 
   objectInfo: 
+  objectSize: 0.5
 --- !u!1001 &1944913805
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5530,6 +5551,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: 
   objectInfo: 
+  objectSize: 0.5
 --- !u!1 &1967377536
 GameObject:
   m_ObjectHideFlags: 0
@@ -5766,6 +5788,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: 
   objectInfo: 
+  objectSize: 0.5
 --- !u!1 &1984677108
 GameObject:
   m_ObjectHideFlags: 0
@@ -6227,6 +6250,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: 
   objectInfo: 
+  objectSize: 0.5
 --- !u!1001 &2082342679
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6357,6 +6381,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: 
   objectInfo: 
+  objectSize: 0.5
 --- !u!1 &2122267318
 GameObject:
   m_ObjectHideFlags: 0
