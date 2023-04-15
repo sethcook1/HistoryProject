@@ -18,11 +18,14 @@ public class mouse_look : MonoBehaviour
     {
         playerObj = GameObject.Find("Player");
         startMenu = GameObject.Find("StartMenu");
+        Cursor.lockState=CursorLockMode.Locked;
+        cursorLocked = true;
     }
 
     // Update is called once per frame
     void Update()
     {
+        /*
         if (!playerObj.GetComponent<OpenMenu>().menuOpen & !cursorLocked & !startMenu.activeInHierarchy)
         {
             Cursor.lockState=CursorLockMode.Locked;
@@ -34,16 +37,15 @@ public class mouse_look : MonoBehaviour
             Cursor.lockState=CursorLockMode.None;
             cursorLocked = false;
         }
+        */
+
+        float mouseX = Input.GetAxis("Mouse X") * mouseSens * Time.deltaTime;
+        float mouseY = Input.GetAxis("Mouse Y") * mouseSens * Time.deltaTime;
+        xRotation -= mouseY;
+        xRotation= Mathf.Clamp(xRotation,-90f,90f);
+        transform.localRotation=Quaternion.Euler(xRotation,0f,0f);
+        playerBody.Rotate(Vector3.up * mouseX);
         
-        if (cursorLocked)
-        {
-            float mouseX = Input.GetAxis("Mouse X") * mouseSens * Time.deltaTime;
-            float mouseY = Input.GetAxis("Mouse Y") * mouseSens * Time.deltaTime;
-            xRotation -= mouseY;
-            xRotation= Mathf.Clamp(xRotation,-90f,90f);
-            transform.localRotation=Quaternion.Euler(xRotation,0f,0f);
-            playerBody.Rotate(Vector3.up * mouseX);
-        }
         
     }
 }
