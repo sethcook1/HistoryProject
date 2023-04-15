@@ -1689,6 +1689,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3908107543269568114, guid: eb48a3a3b1954f949972a0e9c3195362, type: 3}
+      propertyPath: m_text
+      value: Object Name
+      objectReference: {fileID: 0}
+    - target: {fileID: 3908107543269568114, guid: eb48a3a3b1954f949972a0e9c3195362, type: 3}
+      propertyPath: m_fontSize
+      value: 44.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3908107543269568114, guid: eb48a3a3b1954f949972a0e9c3195362, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4580227277932077405, guid: eb48a3a3b1954f949972a0e9c3195362, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -2742,6 +2754,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 145071260487238004, guid: 3584f0152cfb3d740a166eaf4ff2d560, type: 3}
   m_PrefabInstance: {fileID: 1289069836}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1410350430 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3908107543269568114, guid: eb48a3a3b1954f949972a0e9c3195362, type: 3}
+  m_PrefabInstance: {fileID: 757635392}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1470977391 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5830fc3e8dc4bf746bba8aada290c0be, type: 3}
@@ -2772,11 +2795,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 25376b6ec504b2f43992878c3a35baef, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 459.113
+      value: 459.059
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 25376b6ec504b2f43992878c3a35baef, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.57
+      value: 1.21
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 25376b6ec504b2f43992878c3a35baef, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2857,8 +2880,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.0091713695, y: 0.0021918584, z: 0.012514424}
-  m_Center: {x: -0.00009240652, y: -0.0006748772, z: 0.0072780508}
+  m_Size: {x: 0.00917137, y: 0.0021918588, z: 0.0125144245}
+  m_Center: {x: -0.000018467894, y: 0.000134625, z: -0.0006545596}
 --- !u!54 &1517782772
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4137,6 +4160,17 @@ MonoBehaviour:
     the growth and development of skills by the enslaved. Christian David, or Davy,
     may have used such a tool for cutting botany samples with von Schweinitz. '
   objectSize: 0.5
+--- !u!114 &1827468681 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3929770637517435061, guid: eb48a3a3b1954f949972a0e9c3195362, type: 3}
+  m_PrefabInstance: {fileID: 757635392}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1944913805
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4398,7 +4432,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3032f5876c2453d4ea4076fa4b053a83, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.83402836
+      value: 0.637
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3032f5876c2453d4ea4076fa4b053a83, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4805,8 +4839,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Canvas: {fileID: 1773642783}
-  objectName: {fileID: 0}
-  objectInfo: {fileID: 0}
+  objectName: {fileID: 1410350430}
+  objectInfo: {fileID: 1827468681}
   menuButton: 102
   exitButton: 27
   menuOpen: 0
@@ -5339,8 +5373,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2651951819641123070}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 4.48, y: -0.01, z: -4.75}
+  m_LocalScale: {x: 0.73683864, y: 0.73683864, z: 0.73683864}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 543450652015695220}
@@ -5357,6 +5391,7 @@ GameObject:
   - component: {fileID: 2321184287116972387}
   - component: {fileID: 848138892258866878}
   - component: {fileID: 1169348574391852354}
+  - component: {fileID: 2651951819641123071}
   m_Layer: 0
   m_Name: Lot7House
   m_TagString: Untagged
@@ -5364,3 +5399,16 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &2651951819641123071
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2651951819641123070}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 22.749338, y: 17.867014, z: 18.5772}
+  m_Center: {x: 0.79696244, y: 8.78992, z: 0}
