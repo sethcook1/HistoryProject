@@ -1,0 +1,3741 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2479100948570882078
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2479100948570882079}
+  - component: {fileID: 2479100948570882076}
+  m_Layer: 0
+  m_Name: Point Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2479100948570882079
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2479100948570882078}
+  m_LocalRotation: {x: -0.000000021855694, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.0136, z: -0}
+  m_LocalScale: {x: 0.08390154, y: 0.08390154, z: 0.08390154}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2732893672866475963}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &2479100948570882076
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2479100948570882078}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.8601194, b: 0.5613208, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &2479100948578750124
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2479100948578750125}
+  m_Layer: 0
+  m_Name: Objects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2479100948578750125
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2479100948578750124}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 43.274002, y: -0.048103213, z: 2.2597847}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2732893672838158624}
+  - {fileID: 2732893671258646523}
+  - {fileID: 2732893672964810069}
+  - {fileID: 2732893672799105256}
+  - {fileID: 2732893672670490010}
+  - {fileID: 2732893672021670887}
+  - {fileID: 2732893672926733288}
+  - {fileID: 2732893671887870082}
+  - {fileID: 2732893671307732582}
+  - {fileID: 2732893672866475963}
+  - {fileID: 2732893671548734522}
+  - {fileID: 2732893673245287435}
+  - {fileID: 2732893673195480613}
+  - {fileID: 2732893672768917064}
+  - {fileID: 2732893672795155064}
+  - {fileID: 2732893673301109858}
+  - {fileID: 2732893672410327257}
+  - {fileID: 2732893671642670745}
+  - {fileID: 2732893673098669304}
+  - {fileID: 2732893671687800835}
+  - {fileID: 2732893672930457503}
+  - {fileID: 2732893671947031566}
+  - {fileID: 2732893672021657749}
+  - {fileID: 2732893671514247661}
+  - {fileID: 2732893671437615420}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2479100948417022857
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2479100948578750125}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: efa5a1bb34b136445950d39424cdee4a, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: efa5a1bb34b136445950d39424cdee4a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.663
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: efa5a1bb34b136445950d39424cdee4a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.663
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: efa5a1bb34b136445950d39424cdee4a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.663
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: efa5a1bb34b136445950d39424cdee4a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 458.4153
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: efa5a1bb34b136445950d39424cdee4a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6213
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: efa5a1bb34b136445950d39424cdee4a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 399.96
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: efa5a1bb34b136445950d39424cdee4a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: efa5a1bb34b136445950d39424cdee4a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000000037748947
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: efa5a1bb34b136445950d39424cdee4a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: efa5a1bb34b136445950d39424cdee4a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: efa5a1bb34b136445950d39424cdee4a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: efa5a1bb34b136445950d39424cdee4a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: efa5a1bb34b136445950d39424cdee4a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: efa5a1bb34b136445950d39424cdee4a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6516ed2b2f68e34458394452425d457f, type: 2}
+    - target: {fileID: 919132149155446097, guid: efa5a1bb34b136445950d39424cdee4a, type: 3}
+      propertyPath: m_Name
+      value: HornSpoon3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: efa5a1bb34b136445950d39424cdee4a, type: 3}
+      propertyPath: m_TagString
+      value: canPickUp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: efa5a1bb34b136445950d39424cdee4a, type: 3}
+--- !u!4 &2732893673301109858 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: efa5a1bb34b136445950d39424cdee4a, type: 3}
+  m_PrefabInstance: {fileID: 2479100948417022857}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3361621546504697560 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: efa5a1bb34b136445950d39424cdee4a, type: 3}
+  m_PrefabInstance: {fileID: 2479100948417022857}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2479100948417022853
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546504697560}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2479100948417022850
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546504697560}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.021564366, y: 0.009721787, z: 0.07653485}
+  m_Center: {x: 0, y: 0.0047132256, z: 0.00008934736}
+--- !u!114 &2479100948417022852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546504697560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c282687178e56542a06c119c52ba513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2479100948417022849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546504697560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec1f173283c43e4383b7a728745def1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Horn Spoon
+  objectInfo: Horn spoons were another common utensil used by the enslaved. Horn
+    was an available material as a byproduct of cattle farming. No part of the animal
+    went to waste; the hides were used for leather or tanned to make clothes, fat
+    would be used to make lard, and bone and horn would have had multiple uses. Bone
+    and horn could be ground down for powder or carved to create tools. Research
+    shows that the practice of turning bone and horn into tools originates from the
+    Native Americans. Christian David may have carved several of these horn spoons
+    to use in his home or he may have traded for these spoons.
+  objectScaleSizeF: 6
+  objectScaleSize: {x: 0, y: 0, z: 0}
+--- !u!1001 &2479100948472906720
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2479100948578750125}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 0d79440f390e2664cb20f23087afa0ea, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d79440f390e2664cb20f23087afa0ea, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 73.333176
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d79440f390e2664cb20f23087afa0ea, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 73.333176
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d79440f390e2664cb20f23087afa0ea, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 73.333176
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d79440f390e2664cb20f23087afa0ea, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 458.33026
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d79440f390e2664cb20f23087afa0ea, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.642
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d79440f390e2664cb20f23087afa0ea, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 399.98114
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d79440f390e2664cb20f23087afa0ea, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6452399
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d79440f390e2664cb20f23087afa0ea, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.64523983
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d79440f390e2664cb20f23087afa0ea, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.28925
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d79440f390e2664cb20f23087afa0ea, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.28925
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d79440f390e2664cb20f23087afa0ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d79440f390e2664cb20f23087afa0ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d79440f390e2664cb20f23087afa0ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 48.292
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d79440f390e2664cb20f23087afa0ea, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a87f63f938f6e5241bad34e509c29818, type: 2}
+    - target: {fileID: 919132149155446097, guid: 0d79440f390e2664cb20f23087afa0ea, type: 3}
+      propertyPath: m_Name
+      value: BrownGlazedMug
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0d79440f390e2664cb20f23087afa0ea, type: 3}
+      propertyPath: m_TagString
+      value: canPickUp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0d79440f390e2664cb20f23087afa0ea, type: 3}
+--- !u!4 &2732893673245287435 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0d79440f390e2664cb20f23087afa0ea, type: 3}
+  m_PrefabInstance: {fileID: 2479100948472906720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3361621546425843377 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0d79440f390e2664cb20f23087afa0ea, type: 3}
+  m_PrefabInstance: {fileID: 2479100948472906720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2479100948472906525
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546425843377}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2479100948472906524
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546425843377}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0010948636, y: 0.0015305363, z: 0.0013546565}
+  m_Center: {x: 0.000000022293534, y: -0.00021805138, z: 0.00038368162}
+--- !u!114 &2479100948472906527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546425843377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c282687178e56542a06c119c52ba513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2479100948472906520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546425843377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec1f173283c43e4383b7a728745def1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Brown Glazed Mug
+  objectInfo: 'This was a common ceramic style of drinkware in early Salem. Small
+    pieces of ceramics are often uncovered at archeology excavations because they
+    are a relatively stable material. The brown-glazed mug is a reproduction of what
+    would have been a popular style for the lower class and enslaved because they
+    were easier to make or less expensive than porcelain. Glazed pieces like this
+    mug could have been made by enslaved or freed craftspeople. White Moravians in
+    Salem were known for making and selling slip-glazed earthenware. '
+  objectScaleSizeF: 250
+  objectScaleSize: {x: 0, y: 0, z: 0}
+--- !u!1001 &2479100948556267982
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2479100948578750125}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 3032f5876c2453d4ea4076fa4b053a83, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3032f5876c2453d4ea4076fa4b053a83, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 55.806
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3032f5876c2453d4ea4076fa4b053a83, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 55.806
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3032f5876c2453d4ea4076fa4b053a83, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 55.806
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3032f5876c2453d4ea4076fa4b053a83, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 458.77
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3032f5876c2453d4ea4076fa4b053a83, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.637
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3032f5876c2453d4ea4076fa4b053a83, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 396.73
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3032f5876c2453d4ea4076fa4b053a83, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.10575442
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3032f5876c2453d4ea4076fa4b053a83, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.4356842
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3032f5876c2453d4ea4076fa4b053a83, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.21084711
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3032f5876c2453d4ea4076fa4b053a83, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.86864203
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3032f5876c2453d4ea4076fa4b053a83, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 207.287
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3032f5876c2453d4ea4076fa4b053a83, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 126.726
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3032f5876c2453d4ea4076fa4b053a83, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3032f5876c2453d4ea4076fa4b053a83, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 68179e98e3e154e4187a98ca1c926fff, type: 2}
+    - target: {fileID: 919132149155446097, guid: 3032f5876c2453d4ea4076fa4b053a83, type: 3}
+      propertyPath: m_Name
+      value: Broom
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3032f5876c2453d4ea4076fa4b053a83, type: 3}
+      propertyPath: m_TagString
+      value: canPickUp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3032f5876c2453d4ea4076fa4b053a83, type: 3}
+--- !u!4 &2732893673195480613 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3032f5876c2453d4ea4076fa4b053a83, type: 3}
+  m_PrefabInstance: {fileID: 2479100948556267982}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3361621546644470943 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3032f5876c2453d4ea4076fa4b053a83, type: 3}
+  m_PrefabInstance: {fileID: 2479100948556267982}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2479100948556267979
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546644470943}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2479100948556267978
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546644470943}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0020239933, y: 0.026928132, z: 0.0020239928}
+  m_Center: {x: 0, y: -0.0027305682, z: -6.984919e-10}
+--- !u!114 &2479100948556267981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546644470943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c282687178e56542a06c119c52ba513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2479100948556267974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546644470943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec1f173283c43e4383b7a728745def1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Broom
+  objectInfo: 'Brooms are a common household tool that often would have been used
+    by the enslaved that worked in the house. The enslaved would have used brooms
+    in their own cabins as well. By interpreting the simple design of the broom found
+    at Salem at the time, this likely could have been a broom used by an enslaved
+    person in their own homes. '
+  objectScaleSizeF: 35
+  objectScaleSize: {x: 0, y: 0, z: 0}
+--- !u!1001 &2479100948661144339
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2479100948578750125}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8431a6ce24af21e458f1e8b23ff1d700, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8431a6ce24af21e458f1e8b23ff1d700, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 458.481
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8431a6ce24af21e458f1e8b23ff1d700, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.565683
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8431a6ce24af21e458f1e8b23ff1d700, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 400.03
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8431a6ce24af21e458f1e8b23ff1d700, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.0000000754979
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8431a6ce24af21e458f1e8b23ff1d700, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8431a6ce24af21e458f1e8b23ff1d700, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8431a6ce24af21e458f1e8b23ff1d700, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8431a6ce24af21e458f1e8b23ff1d700, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8431a6ce24af21e458f1e8b23ff1d700, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8431a6ce24af21e458f1e8b23ff1d700, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8431a6ce24af21e458f1e8b23ff1d700, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9fd92c96bb90b42468f015230c14e945, type: 2}
+    - target: {fileID: 919132149155446097, guid: 8431a6ce24af21e458f1e8b23ff1d700, type: 3}
+      propertyPath: m_Name
+      value: SmokingPipe
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8431a6ce24af21e458f1e8b23ff1d700, type: 3}
+      propertyPath: m_TagString
+      value: canPickUp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8431a6ce24af21e458f1e8b23ff1d700, type: 3}
+--- !u!4 &2732893673098669304 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8431a6ce24af21e458f1e8b23ff1d700, type: 3}
+  m_PrefabInstance: {fileID: 2479100948661144339}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3361621546614732354 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8431a6ce24af21e458f1e8b23ff1d700, type: 3}
+  m_PrefabInstance: {fileID: 2479100948661144339}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2479100948661144335
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546614732354}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2479100948661144332
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546614732354}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.08280401, y: 0.017121706, z: 0.035122033}
+  m_Center: {x: -0.0020544007, y: -0.008703154, z: -0.0030545313}
+--- !u!114 &2479100948661144334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546614732354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c282687178e56542a06c119c52ba513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2479100948661144331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546614732354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec1f173283c43e4383b7a728745def1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Smoking Pipe
+  objectInfo: "The most common smoking pipes could be made of clay or carved from
+    wood. Clay pipes like this one were common in homes of Old Salem. During Christan
+    David\u2019s lifetime, Salem was a major producer of clay pipes.  The pipes vary
+    in shape and material; the one shown here is clay with a short reed stem and
+    is modeled on one of 78 clay pipes in the Old Salem collections that were produced
+    at the Salem Potter Shop. Others were entirely of clay with longer stems. The
+    popular design in Old Salem was a simple clay bowl with a reed or cane stem.
+    Fragments of a pipe were found at the excavation of the David dwelling. "
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
+--- !u!1001 &2479100948795327166
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2479100948578750125}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 070a7056ad0bc5d439048f942e08a53c, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 070a7056ad0bc5d439048f942e08a53c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 457.798
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 070a7056ad0bc5d439048f942e08a53c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.0463
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 070a7056ad0bc5d439048f942e08a53c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 399.7332
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 070a7056ad0bc5d439048f942e08a53c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8580149
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 070a7056ad0bc5d439048f942e08a53c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.050046574
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 070a7056ad0bc5d439048f942e08a53c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.08898536
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 070a7056ad0bc5d439048f942e08a53c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.5033761
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 070a7056ad0bc5d439048f942e08a53c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.212
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 070a7056ad0bc5d439048f942e08a53c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -11.718
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 070a7056ad0bc5d439048f942e08a53c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 60.776
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 070a7056ad0bc5d439048f942e08a53c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0de57679cb55e7f4eb24b10fe0f105ef, type: 2}
+    - target: {fileID: 919132149155446097, guid: 070a7056ad0bc5d439048f942e08a53c, type: 3}
+      propertyPath: m_Name
+      value: HookKnife
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 070a7056ad0bc5d439048f942e08a53c, type: 3}
+      propertyPath: m_TagString
+      value: canPickUp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 070a7056ad0bc5d439048f942e08a53c, type: 3}
+--- !u!4 &2732893672964810069 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 070a7056ad0bc5d439048f942e08a53c, type: 3}
+  m_PrefabInstance: {fileID: 2479100948795327166}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3361621546749313007 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 070a7056ad0bc5d439048f942e08a53c, type: 3}
+  m_PrefabInstance: {fileID: 2479100948795327166}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2479100948795327163
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546749313007}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2479100948795327162
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546749313007}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01233509, y: 0.0012655382, z: 0.007331581}
+  m_Center: {x: -0.0017961112, y: 0.00061633135, z: 0.0006069738}
+--- !u!114 &2479100948795327165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546749313007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c282687178e56542a06c119c52ba513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2479100948795327158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546749313007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec1f173283c43e4383b7a728745def1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Hook Knife
+  objectInfo: 'A hook knife, also known as a hawkbill knife, or pruning knife, was
+    a valuable tool for the work done throughout a garden. It is a hand-held tool
+    useful for tending crops and medicinal plants. Tools such as these represent
+    the growth and development of skills by the enslaved. Christian David, or Davy,
+    may have used such a tool for cutting botany samples with von Schweinitz. '
+  objectScaleSizeF: 50
+  objectScaleSize: {x: 0, y: 0, z: 0}
+--- !u!1001 &2479100948824753155
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2479100948578750125}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: dd8d41fafe23cd84eb59b8ebd1729069, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dd8d41fafe23cd84eb59b8ebd1729069, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 151.9583
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dd8d41fafe23cd84eb59b8ebd1729069, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 151.9583
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dd8d41fafe23cd84eb59b8ebd1729069, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 151.9583
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dd8d41fafe23cd84eb59b8ebd1729069, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 458.559
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dd8d41fafe23cd84eb59b8ebd1729069, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.62146
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dd8d41fafe23cd84eb59b8ebd1729069, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 399.811
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dd8d41fafe23cd84eb59b8ebd1729069, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dd8d41fafe23cd84eb59b8ebd1729069, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dd8d41fafe23cd84eb59b8ebd1729069, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dd8d41fafe23cd84eb59b8ebd1729069, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dd8d41fafe23cd84eb59b8ebd1729069, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dd8d41fafe23cd84eb59b8ebd1729069, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dd8d41fafe23cd84eb59b8ebd1729069, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: dd8d41fafe23cd84eb59b8ebd1729069, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ed02055105771994c818150141e1a061, type: 2}
+    - target: {fileID: 919132149155446097, guid: dd8d41fafe23cd84eb59b8ebd1729069, type: 3}
+      propertyPath: m_Name
+      value: PewterPlate
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd8d41fafe23cd84eb59b8ebd1729069, type: 3}
+      propertyPath: m_TagString
+      value: canPickUp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dd8d41fafe23cd84eb59b8ebd1729069, type: 3}
+--- !u!4 &2732893672926733288 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dd8d41fafe23cd84eb59b8ebd1729069, type: 3}
+  m_PrefabInstance: {fileID: 2479100948824753155}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3361621546912561490 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: dd8d41fafe23cd84eb59b8ebd1729069, type: 3}
+  m_PrefabInstance: {fileID: 2479100948824753155}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2479100948824753212
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546912561490}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2479100948824753215
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546912561490}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0012544061, y: 0.0012142509, z: 0.00013711813}
+  m_Center: {x: -0.0000014349062, y: 0.0000065326153, z: 0.000056590452}
+--- !u!114 &2479100948824753214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546912561490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c282687178e56542a06c119c52ba513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2479100948824753211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546912561490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec1f173283c43e4383b7a728745def1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Pewter Plate
+  objectInfo: "Pewter was a common material in Christan David\u2019s lifetime for
+    plates, bowls, mugs, and utensils. Pewter plates like this simple one were made
+    by pouring molten pewter into molds. Research at Old Salem shows that there was
+    a pewter shop in the town run by Phillip Reich. The collection at Old Salem,
+    has a pewter plate and a plate mold that came from his shop. Enslaved craftspeople
+    may have worked in his shop. Christian David could have had pewter plates in
+    his home if his enslaver had purchased them for him or handed them down to him
+    when they no longer wanted them. "
+  objectScaleSizeF: 400
+  objectScaleSize: {x: 0, y: 0, z: 0}
+--- !u!1001 &2479100948829687924
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2479100948578750125}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 10286dac6e4c07d4087cbf130e8f2478, type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10286dac6e4c07d4087cbf130e8f2478, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5005467
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10286dac6e4c07d4087cbf130e8f2478, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5005467
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10286dac6e4c07d4087cbf130e8f2478, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5005467
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10286dac6e4c07d4087cbf130e8f2478, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 458.55
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10286dac6e4c07d4087cbf130e8f2478, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.4644
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10286dac6e4c07d4087cbf130e8f2478, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 399.892
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10286dac6e4c07d4087cbf130e8f2478, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10286dac6e4c07d4087cbf130e8f2478, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855692
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10286dac6e4c07d4087cbf130e8f2478, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10286dac6e4c07d4087cbf130e8f2478, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10286dac6e4c07d4087cbf130e8f2478, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10286dac6e4c07d4087cbf130e8f2478, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10286dac6e4c07d4087cbf130e8f2478, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 10286dac6e4c07d4087cbf130e8f2478, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 429cf22b06546d944bc86ed73590bfc1, type: 2}
+    - target: {fileID: 919132149155446097, guid: 10286dac6e4c07d4087cbf130e8f2478, type: 3}
+      propertyPath: m_Name
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 10286dac6e4c07d4087cbf130e8f2478, type: 3}
+      propertyPath: m_TagString
+      value: canPickUp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 10286dac6e4c07d4087cbf130e8f2478, type: 3}
+--- !u!4 &2732893672930457503 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 10286dac6e4c07d4087cbf130e8f2478, type: 3}
+  m_PrefabInstance: {fileID: 2479100948829687924}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3361621546918407461 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 10286dac6e4c07d4087cbf130e8f2478, type: 3}
+  m_PrefabInstance: {fileID: 2479100948829687924}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2479100948829687921
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546918407461}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2479100948829687912
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546918407461}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.41929966, y: 0.3349584, z: 0.2854383}
+  m_Center: {x: 0.000340648, y: -0.062344793, z: -0.004513964}
+--- !u!114 &2479100948829687920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546918407461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c282687178e56542a06c119c52ba513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2479100948829687917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546918407461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec1f173283c43e4383b7a728745def1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Table
+  objectInfo: Though tables seem an ordinary object, they connect family, work, and
+    home in important ways. Wealthier Salemites could afford to purchase their tables.
+    For the enslaved, tables were most often made from leftover materials (wood)
+    on the properties where they worked. Tables of various sizes were used in the
+    home for dining, storage, or as a flat work surface. Unfortunately, because of
+    the ubiquity of tables, most do not survive. This replica in the collections
+    of Old Salem is an example of a common style contemporary with Christian David.
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
+--- !u!1001 &2479100948851656784
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2479100948578750125}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f4a62cb1b75086546adf1cb6ad46b81d, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4a62cb1b75086546adf1cb6ad46b81d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 11.918733
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4a62cb1b75086546adf1cb6ad46b81d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 11.918733
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4a62cb1b75086546adf1cb6ad46b81d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 11.918733
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4a62cb1b75086546adf1cb6ad46b81d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 457.539
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4a62cb1b75086546adf1cb6ad46b81d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.9979
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4a62cb1b75086546adf1cb6ad46b81d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 399.7438
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4a62cb1b75086546adf1cb6ad46b81d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4a62cb1b75086546adf1cb6ad46b81d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4a62cb1b75086546adf1cb6ad46b81d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4a62cb1b75086546adf1cb6ad46b81d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4a62cb1b75086546adf1cb6ad46b81d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4a62cb1b75086546adf1cb6ad46b81d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4a62cb1b75086546adf1cb6ad46b81d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f4a62cb1b75086546adf1cb6ad46b81d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1df2fd58eea6196448945c261d6a99f0, type: 2}
+    - target: {fileID: 919132149155446097, guid: f4a62cb1b75086546adf1cb6ad46b81d, type: 3}
+      propertyPath: m_Name
+      value: CandleHolder
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f4a62cb1b75086546adf1cb6ad46b81d, type: 3}
+      propertyPath: m_TagString
+      value: canPickUp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f4a62cb1b75086546adf1cb6ad46b81d, type: 3}
+--- !u!4 &2732893672866475963 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f4a62cb1b75086546adf1cb6ad46b81d, type: 3}
+  m_PrefabInstance: {fileID: 2479100948851656784}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3361621546940380417 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f4a62cb1b75086546adf1cb6ad46b81d, type: 3}
+  m_PrefabInstance: {fileID: 2479100948851656784}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2479100948851656781
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546940380417}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2479100948851656780
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546940380417}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.010346651, y: 0.01595963, z: 0.010543354}
+  m_Center: {x: -0.000030904077, y: 0.0032579303, z: 0.000026265858}
+--- !u!114 &2479100948851656783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546940380417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c282687178e56542a06c119c52ba513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2479100948851656776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546940380417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec1f173283c43e4383b7a728745def1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Candle Holder
+  objectInfo: The lack of sun and presence of darkness represented the end of the
+    work day and was one of the only times enslaved were not heavily watched and
+    monitored. The night was a time of solitude and, at times, relaxation in slave
+    dwellings. The light of a candle placed in the holder could be used by a mother
+    making clothes or cooking a meal for her children or Davy carving himself a wooden
+    spoon. It was common for candles and holders to be placed near doors for late
+    night work or walking between outbuildings of the property at night.
+  objectScaleSizeF: 30
+  objectScaleSize: {x: 0, y: 0, z: 0}
+--- !u!1001 &2479100948888370891
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2479100948578750125}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 5830fc3e8dc4bf746bba8aada290c0be, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5830fc3e8dc4bf746bba8aada290c0be, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 457.54077
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5830fc3e8dc4bf746bba8aada290c0be, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.045
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5830fc3e8dc4bf746bba8aada290c0be, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 398.03574
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5830fc3e8dc4bf746bba8aada290c0be, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5830fc3e8dc4bf746bba8aada290c0be, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5830fc3e8dc4bf746bba8aada290c0be, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5830fc3e8dc4bf746bba8aada290c0be, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5830fc3e8dc4bf746bba8aada290c0be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5830fc3e8dc4bf746bba8aada290c0be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5830fc3e8dc4bf746bba8aada290c0be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5830fc3e8dc4bf746bba8aada290c0be, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 853135793a759eb499791e739c04e58d, type: 2}
+    - target: {fileID: 919132149155446097, guid: 5830fc3e8dc4bf746bba8aada290c0be, type: 3}
+      propertyPath: m_Name
+      value: ChristianDavidHouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5830fc3e8dc4bf746bba8aada290c0be, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5830fc3e8dc4bf746bba8aada290c0be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5830fc3e8dc4bf746bba8aada290c0be, type: 3}
+--- !u!4 &2732893672838158624 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5830fc3e8dc4bf746bba8aada290c0be, type: 3}
+  m_PrefabInstance: {fileID: 2479100948888370891}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3361621546842850202 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5830fc3e8dc4bf746bba8aada290c0be, type: 3}
+  m_PrefabInstance: {fileID: 2479100948888370891}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2479100948888370889
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546842850202}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -9052940749489819744, guid: 5830fc3e8dc4bf746bba8aada290c0be, type: 3}
+--- !u!114 &2479100948888370884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546842850202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec1f173283c43e4383b7a728745def1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: 
+  objectInfo: 
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
+--- !u!1001 &2479100948919031555
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2479100948578750125}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 03efe914e128529429c46ea261ff07ea, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03efe914e128529429c46ea261ff07ea, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 456.559
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03efe914e128529429c46ea261ff07ea, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.527
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03efe914e128529429c46ea261ff07ea, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 397.48
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03efe914e128529429c46ea261ff07ea, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.58872205
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03efe914e128529429c46ea261ff07ea, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.58872145
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03efe914e128529429c46ea261ff07ea, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.39167187
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03efe914e128529429c46ea261ff07ea, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.3916714
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03efe914e128529429c46ea261ff07ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -89.972
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03efe914e128529429c46ea261ff07ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 03efe914e128529429c46ea261ff07ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -67.271
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 03efe914e128529429c46ea261ff07ea, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 699e7227e5bd7a14a957cfe8fddc5dfa, type: 2}
+    - target: {fileID: 919132149155446097, guid: 03efe914e128529429c46ea261ff07ea, type: 3}
+      propertyPath: m_Name
+      value: WoodenStool
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 03efe914e128529429c46ea261ff07ea, type: 3}
+      propertyPath: m_TagString
+      value: canPickUp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03efe914e128529429c46ea261ff07ea, type: 3}
+--- !u!4 &2732893672799105256 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 03efe914e128529429c46ea261ff07ea, type: 3}
+  m_PrefabInstance: {fileID: 2479100948919031555}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3361621546873006674 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 03efe914e128529429c46ea261ff07ea, type: 3}
+  m_PrefabInstance: {fileID: 2479100948919031555}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2479100948919031612
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546873006674}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2479100948919031615
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546873006674}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0035298849, y: 0.003835474, z: 0.004380007}
+  m_Center: {x: -0.000013027631, y: 0.0002445294, z: -0.0017788335}
+--- !u!114 &2479100948919031614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546873006674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c282687178e56542a06c119c52ba513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2479100948919031611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546873006674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec1f173283c43e4383b7a728745def1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Wooden Stool
+  objectInfo: 'This simple wooden stool is modeled on one in the Salem collections.
+    Stools made out of wood could be easily carved by an enslaved craftsperson for
+    their own use or could have been traded among the enslaved. Most enslaved were
+    tasked with working physically demanding jobs like farming, tending to crops,
+    cooking for the enslaver and their family, or working in the main house. The
+    demanding work often led to physical ailments later in life for the enslaved,
+    which often meant their value went down for the enslaver. Research shows that
+    this was the case for Christan David, as his price dropped by fifty percent when
+    he was sold in the Moravian community. Having a stool would have been a helpful
+    convenience within the home of the enslaved. '
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
+--- !u!1001 &2479100948957407651
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2479100948578750125}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: d0ca3232e3df96948be23be1a1d9cc2f, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d0ca3232e3df96948be23be1a1d9cc2f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 65.528
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d0ca3232e3df96948be23be1a1d9cc2f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 65.52799
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d0ca3232e3df96948be23be1a1d9cc2f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 65.52799
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d0ca3232e3df96948be23be1a1d9cc2f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 458.35504
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d0ca3232e3df96948be23be1a1d9cc2f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.438
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d0ca3232e3df96948be23be1a1d9cc2f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 396.055
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d0ca3232e3df96948be23be1a1d9cc2f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.38862872
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d0ca3232e3df96948be23be1a1d9cc2f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5907349
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d0ca3232e3df96948be23be1a1d9cc2f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.38862872
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d0ca3232e3df96948be23be1a1d9cc2f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.5907349
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d0ca3232e3df96948be23be1a1d9cc2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d0ca3232e3df96948be23be1a1d9cc2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d0ca3232e3df96948be23be1a1d9cc2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 66.68
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d0ca3232e3df96948be23be1a1d9cc2f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 85fac6fa1d9df6048b2581dd1208154f, type: 2}
+    - target: {fileID: 919132149155446097, guid: d0ca3232e3df96948be23be1a1d9cc2f, type: 3}
+      propertyPath: m_Name
+      value: GrubHoe
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0ca3232e3df96948be23be1a1d9cc2f, type: 3}
+      propertyPath: m_TagString
+      value: canPickUp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d0ca3232e3df96948be23be1a1d9cc2f, type: 3}
+--- !u!4 &2732893672768917064 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d0ca3232e3df96948be23be1a1d9cc2f, type: 3}
+  m_PrefabInstance: {fileID: 2479100948957407651}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3361621545972503794 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d0ca3232e3df96948be23be1a1d9cc2f, type: 3}
+  m_PrefabInstance: {fileID: 2479100948957407651}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2479100948957407708
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545972503794}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2479100948957407711
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545972503794}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.018837895, y: 0.0043235524, z: 0.0021806539}
+  m_Center: {x: -0.0012693019, y: -0.0011533573, z: 0.00041456305}
+--- !u!114 &2479100948957407710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545972503794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c282687178e56542a06c119c52ba513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2479100948957407707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545972503794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec1f173283c43e4383b7a728745def1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Grub Hoe
+  objectInfo: 'Farming tools such as the grub hoe were part of the daily work of
+    gardening and farming. The grub was a versatile tool which could dig up roots
+    and stumps in vineyard David cared for. Furthermore, it may have become a walking
+    stick as his body deteriorated from years of physical labor. The grub hoe along
+    with many other horticultural and farming tools represent the physical demand
+    of the enslaved to provide a more lucrative and comfortable livelihood life for
+    the enslavers.  '
+  objectScaleSizeF: 35
+  objectScaleSize: {x: 0, y: 0, z: 0}
+--- !u!1001 &2479100948964920723
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2479100948578750125}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 2e78818334329e14abc3d80ab828380e, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e78818334329e14abc3d80ab828380e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.931579
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e78818334329e14abc3d80ab828380e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.931579
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e78818334329e14abc3d80ab828380e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.931579
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e78818334329e14abc3d80ab828380e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 456.481
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e78818334329e14abc3d80ab828380e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.112
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e78818334329e14abc3d80ab828380e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 399.103
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e78818334329e14abc3d80ab828380e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e78818334329e14abc3d80ab828380e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e78818334329e14abc3d80ab828380e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e78818334329e14abc3d80ab828380e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e78818334329e14abc3d80ab828380e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e78818334329e14abc3d80ab828380e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2e78818334329e14abc3d80ab828380e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 2e78818334329e14abc3d80ab828380e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 01a2bc253c94a3b4d842b984849c2207, type: 2}
+    - target: {fileID: 919132149155446097, guid: 2e78818334329e14abc3d80ab828380e, type: 3}
+      propertyPath: m_Name
+      value: Bed
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2e78818334329e14abc3d80ab828380e, type: 3}
+      propertyPath: m_TagString
+      value: canPickUp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2e78818334329e14abc3d80ab828380e, type: 3}
+--- !u!4 &2732893672795155064 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2e78818334329e14abc3d80ab828380e, type: 3}
+  m_PrefabInstance: {fileID: 2479100948964920723}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3361621545979900098 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2e78818334329e14abc3d80ab828380e, type: 3}
+  m_PrefabInstance: {fileID: 2479100948964920723}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2479100948964920716
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545979900098}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2479100948964920719
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545979900098}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.4347467, y: 0.6495884, z: 1.0097051}
+  m_Center: {x: -0.0007110834, y: 0.324449, z: 0.00007900596}
+--- !u!114 &2479100948964920718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545979900098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c282687178e56542a06c119c52ba513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2479100948964920715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545979900098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec1f173283c43e4383b7a728745def1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Bed
+  objectInfo: "Commonly small in size, some slave dwellings would have space for
+    a small wooden bed. Beds and material bedding used for warmth represent the small
+    comforts provided to the enslaved during all seasons of yearly weather. The luxury
+    of a bed was not available to all enslaved. Some would sleep on the floor near
+    a fire while others would use materials such as straw to create sleeping pallets.
+    This is based on a bed in the Old Salem collection cataloged as a \u201CSlave
+    bed\u201D without further provenance. "
+  objectScaleSizeF: 0.3
+  objectScaleSize: {x: 0, y: 0, z: 0}
+--- !u!1001 &2479100949056096881
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2479100948578750125}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 25376b6ec504b2f43992878c3a35baef, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 25376b6ec504b2f43992878c3a35baef, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 71.715996
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 25376b6ec504b2f43992878c3a35baef, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 71.71599
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 25376b6ec504b2f43992878c3a35baef, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 71.71599
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 25376b6ec504b2f43992878c3a35baef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 459.059
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 25376b6ec504b2f43992878c3a35baef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.21
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 25376b6ec504b2f43992878c3a35baef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 397.904
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 25376b6ec504b2f43992878c3a35baef, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 25376b6ec504b2f43992878c3a35baef, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 25376b6ec504b2f43992878c3a35baef, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 25376b6ec504b2f43992878c3a35baef, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 25376b6ec504b2f43992878c3a35baef, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 25376b6ec504b2f43992878c3a35baef, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 25376b6ec504b2f43992878c3a35baef, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 25376b6ec504b2f43992878c3a35baef, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e41e965ce96ce81429f7134f49bb9e20, type: 2}
+    - target: {fileID: 919132149155446097, guid: 25376b6ec504b2f43992878c3a35baef, type: 3}
+      propertyPath: m_Name
+      value: Coat
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 25376b6ec504b2f43992878c3a35baef, type: 3}
+      propertyPath: m_TagString
+      value: canPickUp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 25376b6ec504b2f43992878c3a35baef, type: 3}
+--- !u!4 &2732893672670490010 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 25376b6ec504b2f43992878c3a35baef, type: 3}
+  m_PrefabInstance: {fileID: 2479100949056096881}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3361621545936992032 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 25376b6ec504b2f43992878c3a35baef, type: 3}
+  m_PrefabInstance: {fileID: 2479100949056096881}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2479100949056096874
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545936992032}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2479100949056096877
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545936992032}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.00917137, y: 0.0021918588, z: 0.0125144245}
+  m_Center: {x: -0.000018467894, y: 0.000134625, z: -0.0006545596}
+--- !u!114 &2479100949056096876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545936992032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c282687178e56542a06c119c52ba513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2479100949056096873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545936992032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec1f173283c43e4383b7a728745def1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Coat
+  objectInfo: This coat is modeled on a reproduction used by live interpreters at
+    Salem. Likely, Christian David possessed some such garment and perhaps had one
+    designated for work in the garden and one formal one for church.
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
+--- !u!1001 &2479100949316194098
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2479100948578750125}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: a4869480fd29db2488cd954a0cd25644, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4869480fd29db2488cd954a0cd25644, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 458.359
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4869480fd29db2488cd954a0cd25644, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.623
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4869480fd29db2488cd954a0cd25644, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 399.854
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4869480fd29db2488cd954a0cd25644, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4869480fd29db2488cd954a0cd25644, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000000037748947
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4869480fd29db2488cd954a0cd25644, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4869480fd29db2488cd954a0cd25644, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4869480fd29db2488cd954a0cd25644, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4869480fd29db2488cd954a0cd25644, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a4869480fd29db2488cd954a0cd25644, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a4869480fd29db2488cd954a0cd25644, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7fde04be8e4c3fa4b8d474dc61acdb1b, type: 2}
+    - target: {fileID: 919132149155446097, guid: a4869480fd29db2488cd954a0cd25644, type: 3}
+      propertyPath: m_Name
+      value: HornSpoon2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4869480fd29db2488cd954a0cd25644, type: 3}
+      propertyPath: m_TagString
+      value: canPickUp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a4869480fd29db2488cd954a0cd25644, type: 3}
+--- !u!4 &2732893672410327257 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a4869480fd29db2488cd954a0cd25644, type: 3}
+  m_PrefabInstance: {fileID: 2479100949316194098}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3361621546196955747 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a4869480fd29db2488cd954a0cd25644, type: 3}
+  m_PrefabInstance: {fileID: 2479100949316194098}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2479100949316194094
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546196955747}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2479100949316194095
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546196955747}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.13933328, y: 0.007285998, z: 0.030137919}
+  m_Center: {x: -0.00012043491, y: 0.00019688893, z: 0.000027949456}
+--- !u!114 &2479100949316194097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546196955747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c282687178e56542a06c119c52ba513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2479100949316194090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621546196955747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec1f173283c43e4383b7a728745def1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Horn Spoon
+  objectInfo: Horn spoons were another common utensil used by the enslaved. Horn
+    was an available material as a byproduct of cattle farming. No part of the animal
+    went to waste; the hides were used for leather or tanned to make clothes, fat
+    would be used to make lard, and bone and horn would have had multiple uses. Bone
+    and horn could be ground down for powder or carved to create tools. Research
+    shows that the practice of turning bone and horn into tools originates from the
+    Native Americans. Christian David may have carved several of these horn spoons
+    to use in his home or he may have traded for these spoons.
+  objectScaleSizeF: 6
+  objectScaleSize: {x: 0, y: 0, z: 0}
+--- !u!1001 &2479100949738478604
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2479100948578750125}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: a10454b48aa146c43ade720601fc0cf4, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a10454b48aa146c43ade720601fc0cf4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 458.993
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a10454b48aa146c43ade720601fc0cf4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.4500009
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a10454b48aa146c43ade720601fc0cf4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 397.91077
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a10454b48aa146c43ade720601fc0cf4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7130229
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a10454b48aa146c43ade720601fc0cf4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0738686
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a10454b48aa146c43ade720601fc0cf4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6930851
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a10454b48aa146c43ade720601fc0cf4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0759936
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a10454b48aa146c43ade720601fc0cf4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -12.162
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a10454b48aa146c43ade720601fc0cf4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -88.338
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a10454b48aa146c43ade720601fc0cf4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a10454b48aa146c43ade720601fc0cf4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 17e62ba70eb14d046a7ca8b1f0c1e78b, type: 2}
+    - target: {fileID: -7511558181221131132, guid: a10454b48aa146c43ade720601fc0cf4, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5510893020db12948ac6ab2360c2511c, type: 2}
+    - target: {fileID: 919132149155446097, guid: a10454b48aa146c43ade720601fc0cf4, type: 3}
+      propertyPath: m_Name
+      value: StrawHat
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a10454b48aa146c43ade720601fc0cf4, type: 3}
+      propertyPath: m_TagString
+      value: canPickUp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a10454b48aa146c43ade720601fc0cf4, type: 3}
+--- !u!4 &2732893672021670887 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a10454b48aa146c43ade720601fc0cf4, type: 3}
+  m_PrefabInstance: {fileID: 2479100949738478604}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3361621545544048989 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a10454b48aa146c43ade720601fc0cf4, type: 3}
+  m_PrefabInstance: {fileID: 2479100949738478604}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2479100949738478601
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545544048989}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2479100949738478600
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545544048989}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.003840525, y: 0.0038254505, z: 0.0010820046}
+  m_Center: {x: -0.0000033592805, y: 0.00013256466, z: 0.00043833847}
+--- !u!114 &2479100949738478603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545544048989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c282687178e56542a06c119c52ba513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2479100949738478596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545544048989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec1f173283c43e4383b7a728745def1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Straw Hat
+  objectInfo: Straw hats would have been a valuable tool for any field worker. Working
+    in the fields was physically demanding, and the enslaved were at high risk of
+    health issues while working under the unrelenting sun, which a straw hat helped
+    to block. These hats were easy to make and possibly a commodity the enslaved
+    could have traded among themselves. Hats would have been one of the few personal
+    items the enslaved were allowed to own since it was a tool to help them in the
+    field. As a skilled horticulturist who worked on the vineyard at lot 07, Christian
+    David may have had a straw hat similar to this reproduction.
+  objectScaleSizeF: 200
+  objectScaleSize: {x: 0, y: 0, z: 0}
+--- !u!1001 &2479100949738483582
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2479100948578750125}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8101b4ee719eaa347951d6c622a9ad11, type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8101b4ee719eaa347951d6c622a9ad11, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.42613807
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8101b4ee719eaa347951d6c622a9ad11, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.42613807
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8101b4ee719eaa347951d6c622a9ad11, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.42613807
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8101b4ee719eaa347951d6c622a9ad11, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 458.3001
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8101b4ee719eaa347951d6c622a9ad11, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.61502004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8101b4ee719eaa347951d6c622a9ad11, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 399.77505
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8101b4ee719eaa347951d6c622a9ad11, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5924854
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8101b4ee719eaa347951d6c622a9ad11, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0667225
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8101b4ee719eaa347951d6c622a9ad11, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.802324
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8101b4ee719eaa347951d6c622a9ad11, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.028025514
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8101b4ee719eaa347951d6c622a9ad11, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -1.954
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8101b4ee719eaa347951d6c622a9ad11, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -107.249
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8101b4ee719eaa347951d6c622a9ad11, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 8.069
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8101b4ee719eaa347951d6c622a9ad11, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c2887f8f9556994faee4034baec94bb, type: 2}
+    - target: {fileID: 919132149155446097, guid: 8101b4ee719eaa347951d6c622a9ad11, type: 3}
+      propertyPath: m_Name
+      value: GourdLadle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8101b4ee719eaa347951d6c622a9ad11, type: 3}
+      propertyPath: m_TagString
+      value: canPickUp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8101b4ee719eaa347951d6c622a9ad11, type: 3}
+--- !u!4 &2732893672021657749 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8101b4ee719eaa347951d6c622a9ad11, type: 3}
+  m_PrefabInstance: {fileID: 2479100949738483582}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3361621545544045103 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8101b4ee719eaa347951d6c622a9ad11, type: 3}
+  m_PrefabInstance: {fileID: 2479100949738483582}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2479100949738483578
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545544045103}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2479100949738483579
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545544045103}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.19392934, y: 0.057905313, z: 0.059873916}
+  m_Center: {x: -0.0061147283, y: 0.019971415, z: 0.0023109438}
+--- !u!114 &2479100949738483581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545544045103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c282687178e56542a06c119c52ba513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2479100949738483574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545544045103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec1f173283c43e4383b7a728745def1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Gourd Ladle
+  objectInfo: 'Gourd ladles were hand-made tools used most commonly for drawing water
+    from a bucket. Colors varied depending on the gourd. Drinking gourds or water
+    gourds have been commonly used by African and Native cultures as ladles. Christian
+    David may have constructed such a ladle using gourds he grew on the property.  '
+  objectScaleSizeF: 4
+  objectScaleSize: {x: 0, y: 0, z: 0}
+--- !u!1001 &2479100949812851685
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2479100948578750125}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: afdd1460d7a99a942bd2509c5211f993, type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: afdd1460d7a99a942bd2509c5211f993, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.47997594
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: afdd1460d7a99a942bd2509c5211f993, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.47997594
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: afdd1460d7a99a942bd2509c5211f993, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.47997597
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: afdd1460d7a99a942bd2509c5211f993, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 458.3446
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: afdd1460d7a99a942bd2509c5211f993, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6148
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: afdd1460d7a99a942bd2509c5211f993, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 399.76782
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: afdd1460d7a99a942bd2509c5211f993, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.592255
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: afdd1460d7a99a942bd2509c5211f993, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.072812
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: afdd1460d7a99a942bd2509c5211f993, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.8017947
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: afdd1460d7a99a942bd2509c5211f993, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.032522984
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: afdd1460d7a99a942bd2509c5211f993, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -1.954
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: afdd1460d7a99a942bd2509c5211f993, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -107.249
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: afdd1460d7a99a942bd2509c5211f993, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 8.939
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: afdd1460d7a99a942bd2509c5211f993, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5de6dc9f2bcf950448603ae768a5ef57, type: 2}
+    - target: {fileID: 919132149155446097, guid: afdd1460d7a99a942bd2509c5211f993, type: 3}
+      propertyPath: m_Name
+      value: GourdLadle2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: afdd1460d7a99a942bd2509c5211f993, type: 3}
+      propertyPath: m_TagString
+      value: canPickUp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: afdd1460d7a99a942bd2509c5211f993, type: 3}
+--- !u!4 &2732893671947031566 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: afdd1460d7a99a942bd2509c5211f993, type: 3}
+  m_PrefabInstance: {fileID: 2479100949812851685}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3361621545752497844 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: afdd1460d7a99a942bd2509c5211f993, type: 3}
+  m_PrefabInstance: {fileID: 2479100949812851685}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2479100949812851681
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545752497844}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2479100949812851486
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545752497844}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.18776822, y: 0.039342966, z: 0.0597858}
+  m_Center: {x: -0.010941011, y: 0.016298084, z: 0.00065642316}
+--- !u!114 &2479100949812851680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545752497844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c282687178e56542a06c119c52ba513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2479100949812851485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545752497844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec1f173283c43e4383b7a728745def1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Gourd Ladle
+  objectInfo: 'Gourd ladles were hand-made tools used most commonly for drawing water
+    from a bucket. Colors varied depending on the gourd. Drinking gourds or water
+    gourds have been commonly used by African and Native cultures as ladles. Christian
+    David may have constructed such a ladle using gourds he grew on the property.  '
+  objectScaleSizeF: 4
+  objectScaleSize: {x: 0, y: 0, z: 0}
+--- !u!1001 &2479100949872213865
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2479100948578750125}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 4b59fce04d065f344b2928e9ca7069a4, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4b59fce04d065f344b2928e9ca7069a4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 458.657
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4b59fce04d065f344b2928e9ca7069a4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.612
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4b59fce04d065f344b2928e9ca7069a4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 400.012
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4b59fce04d065f344b2928e9ca7069a4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6629353
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4b59fce04d065f344b2928e9ca7069a4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6629357
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4b59fce04d065f344b2928e9ca7069a4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.24600111
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4b59fce04d065f344b2928e9ca7069a4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.24600121
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4b59fce04d065f344b2928e9ca7069a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4b59fce04d065f344b2928e9ca7069a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4b59fce04d065f344b2928e9ca7069a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -40.718
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4b59fce04d065f344b2928e9ca7069a4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 454ff93bfcbfdc14abbb7d9441963a5b, type: 2}
+    - target: {fileID: 919132149155446097, guid: 4b59fce04d065f344b2928e9ca7069a4, type: 3}
+      propertyPath: m_Name
+      value: MetalLadle
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4b59fce04d065f344b2928e9ca7069a4, type: 3}
+      propertyPath: m_TagString
+      value: canPickUp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4b59fce04d065f344b2928e9ca7069a4, type: 3}
+--- !u!4 &2732893671887870082 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4b59fce04d065f344b2928e9ca7069a4, type: 3}
+  m_PrefabInstance: {fileID: 2479100949872213865}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3361621545678684728 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4b59fce04d065f344b2928e9ca7069a4, type: 3}
+  m_PrefabInstance: {fileID: 2479100949872213865}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2479100949872213858
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545678684728}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2479100949872213861
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545678684728}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.00073701295, y: 0.0020905396, z: 0.0008028896}
+  m_Center: {x: 0.0000042069587, y: 0.0007501363, z: 0.00040304917}
+--- !u!114 &2479100949872213860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545678684728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c282687178e56542a06c119c52ba513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2479100949872213857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545678684728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec1f173283c43e4383b7a728745def1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Metal Ladle
+  objectInfo: 'Metal ladles would be a tool best utilized within the kitchen or outbuildings
+    where cooking or food preparation would take place. Ladles could be made out
+    of a variety of materials, though metal ladles were common in the Moravian households
+    and were produced, sold, and traded throughout the area. Christian David may
+    have acquired a metal ladle through trade, purchase, or from the Moravian enslavers
+    which he would use to cook meals over a fire.  '
+  objectScaleSizeF: 250
+  objectScaleSize: {x: 0, y: 0, z: 0}
+--- !u!1001 &2479100950072012776
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2479100948578750125}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 59e3ca6c760c6ba439627004ab63963d, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 59e3ca6c760c6ba439627004ab63963d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 458.847
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 59e3ca6c760c6ba439627004ab63963d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.621
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 59e3ca6c760c6ba439627004ab63963d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 399.822
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 59e3ca6c760c6ba439627004ab63963d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.4421333
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 59e3ca6c760c6ba439627004ab63963d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000009663154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 59e3ca6c760c6ba439627004ab63963d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.8969494
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 59e3ca6c760c6ba439627004ab63963d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.00000001960346
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 59e3ca6c760c6ba439627004ab63963d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 59e3ca6c760c6ba439627004ab63963d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 127.52
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 59e3ca6c760c6ba439627004ab63963d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 59e3ca6c760c6ba439627004ab63963d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 70d9ad3cadf1b61439ad4b4393a65183, type: 2}
+    - target: {fileID: 919132149155446097, guid: 59e3ca6c760c6ba439627004ab63963d, type: 3}
+      propertyPath: m_Name
+      value: SugarNippers
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 59e3ca6c760c6ba439627004ab63963d, type: 3}
+      propertyPath: m_TagString
+      value: canPickUp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 59e3ca6c760c6ba439627004ab63963d, type: 3}
+--- !u!4 &2732893671687800835 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 59e3ca6c760c6ba439627004ab63963d, type: 3}
+  m_PrefabInstance: {fileID: 2479100950072012776}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3361621544939623097 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 59e3ca6c760c6ba439627004ab63963d, type: 3}
+  m_PrefabInstance: {fileID: 2479100950072012776}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2479100950072012772
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621544939623097}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2479100950072012773
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621544939623097}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.250507, y: 0.010480505, z: 0.102468506}
+  m_Center: {x: 0.04869724, y: 0.00050064706, z: -0.025962027}
+--- !u!114 &2479100950072012775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621544939623097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c282687178e56542a06c119c52ba513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2479100950072012768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621544939623097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec1f173283c43e4383b7a728745def1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Sugar Nippers
+  objectInfo: These sugar nippers are similar to those that were found in a 1977
+    excavation of the Christian David House site. This object stands as a connection
+    point between the consumption of sugar and slavery in the 18th and 19th centuries.
+    At that time, sugar came in large cones and nippers were used to get chunks off
+    for individual use. Might these nippers have belonged to David? Could they have
+    been a gift or the payment for services he rendered? Were they used in the main
+    house next to his? Why would a valuable silver object have been discarded? The
+    sugar nippers' presence indicates mysteries we cannot know, the lived experiences
+    we cannot access, and the questions left unanswered.
+  objectScaleSizeF: 5
+  objectScaleSize: {x: 0, y: 0, z: 0}
+--- !u!1001 &2479100950108815730
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2479100948578750125}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 908b97c54c0d19143ba06ff3bd6080a5, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 908b97c54c0d19143ba06ff3bd6080a5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.7336
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 908b97c54c0d19143ba06ff3bd6080a5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.7336
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 908b97c54c0d19143ba06ff3bd6080a5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.7336
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 908b97c54c0d19143ba06ff3bd6080a5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 458.5052
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 908b97c54c0d19143ba06ff3bd6080a5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.61349994
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 908b97c54c0d19143ba06ff3bd6080a5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 399.99
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 908b97c54c0d19143ba06ff3bd6080a5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 908b97c54c0d19143ba06ff3bd6080a5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000000037748947
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 908b97c54c0d19143ba06ff3bd6080a5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 908b97c54c0d19143ba06ff3bd6080a5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 908b97c54c0d19143ba06ff3bd6080a5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 908b97c54c0d19143ba06ff3bd6080a5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 908b97c54c0d19143ba06ff3bd6080a5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 908b97c54c0d19143ba06ff3bd6080a5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 116a9c27f4cb3cc4fb9371de459852f3, type: 2}
+    - target: {fileID: 919132149155446097, guid: 908b97c54c0d19143ba06ff3bd6080a5, type: 3}
+      propertyPath: m_Name
+      value: HornSpoon1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 908b97c54c0d19143ba06ff3bd6080a5, type: 3}
+      propertyPath: m_TagString
+      value: canPickUp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 908b97c54c0d19143ba06ff3bd6080a5, type: 3}
+--- !u!4 &2732893671642670745 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 908b97c54c0d19143ba06ff3bd6080a5, type: 3}
+  m_PrefabInstance: {fileID: 2479100950108815730}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3361621544842099747 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 908b97c54c0d19143ba06ff3bd6080a5, type: 3}
+  m_PrefabInstance: {fileID: 2479100950108815730}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2479100950108815726
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621544842099747}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2479100950108815727
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621544842099747}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.021804634, y: 0.007795647, z: 0.076809175}
+  m_Center: {x: -4.656613e-10, y: 0.0041223727, z: -0.00005218014}
+--- !u!114 &2479100950108815729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621544842099747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c282687178e56542a06c119c52ba513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2479100950108815722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621544842099747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec1f173283c43e4383b7a728745def1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Horn Spoon
+  objectInfo: Horn spoons were another common utensil used by the enslaved. Horn
+    was an available material as a byproduct of cattle farming. No part of the animal
+    went to waste; the hides were used for leather or tanned to make clothes, fat
+    would be used to make lard, and bone and horn would have had multiple uses. Bone
+    and horn could be ground down for powder or carved to create tools. Research
+    shows that the practice of turning bone and horn into tools originates from the
+    Native Americans. Christian David may have carved several of these horn spoons
+    to use in his home or he may have traded for these spoons.
+  objectScaleSizeF: 6
+  objectScaleSize: {x: 0, y: 0, z: 0}
+--- !u!1001 &2479100950202952657
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2479100948578750125}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: d7acfc6b7fbbead42a97fa3c52f52e93, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d7acfc6b7fbbead42a97fa3c52f52e93, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 456.851
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d7acfc6b7fbbead42a97fa3c52f52e93, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.063
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d7acfc6b7fbbead42a97fa3c52f52e93, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 395.572
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d7acfc6b7fbbead42a97fa3c52f52e93, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6236782
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d7acfc6b7fbbead42a97fa3c52f52e93, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.62367797
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d7acfc6b7fbbead42a97fa3c52f52e93, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.33320504
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d7acfc6b7fbbead42a97fa3c52f52e93, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.33320525
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d7acfc6b7fbbead42a97fa3c52f52e93, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d7acfc6b7fbbead42a97fa3c52f52e93, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d7acfc6b7fbbead42a97fa3c52f52e93, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -56.227
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d7acfc6b7fbbead42a97fa3c52f52e93, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4c02d3d430c9197499d773a0a3c99986, type: 2}
+    - target: {fileID: 919132149155446097, guid: d7acfc6b7fbbead42a97fa3c52f52e93, type: 3}
+      propertyPath: m_Name
+      value: Bucket
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d7acfc6b7fbbead42a97fa3c52f52e93, type: 3}
+      propertyPath: m_TagString
+      value: canPickUp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7acfc6b7fbbead42a97fa3c52f52e93, type: 3}
+--- !u!4 &2732893671548734522 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d7acfc6b7fbbead42a97fa3c52f52e93, type: 3}
+  m_PrefabInstance: {fileID: 2479100950202952657}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3361621545068992128 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d7acfc6b7fbbead42a97fa3c52f52e93, type: 3}
+  m_PrefabInstance: {fileID: 2479100950202952657}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2479100950202952650
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545068992128}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2479100950202952653
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545068992128}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0033748911, y: 0.0030865017, z: 0.0034374457}
+  m_Center: {x: -0.0000024874462, y: -0.00026310608, z: 0.0017110171}
+--- !u!114 &2479100950202952652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545068992128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c282687178e56542a06c119c52ba513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2479100950202952649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545068992128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec1f173283c43e4383b7a728745def1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Bucket
+  objectInfo: 'A bucket would be an essential tool for daily life and used for multiple
+    purposes for feeding farm animals, carrying water, or for cleaning. Christian
+    David might have had a bucket to water the plants he cared for and another for
+    his own drinking water. The bucket shown here was a simple and sturdy design
+    with a thick rope handle. '
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
+--- !u!1001 &2479100950237181446
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2479100948578750125}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 960c8d9f41610034082401e312e6a398, type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 960c8d9f41610034082401e312e6a398, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 458.3991
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 960c8d9f41610034082401e312e6a398, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6175
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 960c8d9f41610034082401e312e6a398, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 399.7283
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 960c8d9f41610034082401e312e6a398, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5923236
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 960c8d9f41610034082401e312e6a398, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000000022359588
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 960c8d9f41610034082401e312e6a398, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.80570024
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 960c8d9f41610034082401e312e6a398, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000000030414395
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 960c8d9f41610034082401e312e6a398, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 960c8d9f41610034082401e312e6a398, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -107.356
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 960c8d9f41610034082401e312e6a398, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 960c8d9f41610034082401e312e6a398, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6a2b14cc46c5a8c40bc58071860f4c7a, type: 2}
+    - target: {fileID: 919132149155446097, guid: 960c8d9f41610034082401e312e6a398, type: 3}
+      propertyPath: m_Name
+      value: WoodenSpoon
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 960c8d9f41610034082401e312e6a398, type: 3}
+      propertyPath: m_TagString
+      value: canPickUp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 960c8d9f41610034082401e312e6a398, type: 3}
+--- !u!4 &2732893671514247661 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 960c8d9f41610034082401e312e6a398, type: 3}
+  m_PrefabInstance: {fileID: 2479100950237181446}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3361621544969522007 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 960c8d9f41610034082401e312e6a398, type: 3}
+  m_PrefabInstance: {fileID: 2479100950237181446}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2479100950237181442
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621544969522007}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2479100950237181443
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621544969522007}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05807689, y: 0.0031386074, z: 0.013393683}
+  m_Center: {x: 0.00648354, y: 0.0025785966, z: -0.00059654796}
+--- !u!114 &2479100950237181445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621544969522007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c282687178e56542a06c119c52ba513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2479100950237181502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621544969522007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec1f173283c43e4383b7a728745def1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Wooden Spoon
+  objectInfo: "Wooden spoons were an everyday tool used by the enslaved for cooking
+    or eating. They were easy to carve with a knife and a block of wood that could
+    be widdled into a spoon. This wooden spoon is a reproduction of spoons made during
+    Christan David\u2019s lifetime."
+  objectScaleSizeF: 8
+  objectScaleSize: {x: 0, y: 0, z: 0}
+--- !u!1001 &2479100950288967383
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2479100948578750125}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 12.364322
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10.276725
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 12.364322
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 458.282
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.017
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 395.315
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000003774895
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c2f266d8ea52e0b438291c167357e2bd, type: 2}
+    - target: {fileID: 919132149155446097, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
+      propertyPath: m_Name
+      value: FlowerPotGreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
+      propertyPath: m_TagString
+      value: canPickUp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
+--- !u!4 &2732893671437615420 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
+  m_PrefabInstance: {fileID: 2479100950288967383}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3361621545155009414 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f33e50f62ba9fa245ba2e71284a67803, type: 3}
+  m_PrefabInstance: {fileID: 2479100950288967383}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2479100950288967378
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545155009414}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2479100950288967372
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545155009414}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.023257392, y: 0.029449465, z: 0.023257392}
+  m_Center: {x: 0.0000038146973, y: 0.009525899, z: 0}
+--- !u!114 &2479100950288967379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545155009414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c282687178e56542a06c119c52ba513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2479100950288967377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545155009414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec1f173283c43e4383b7a728745def1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Green-Glazed Flower Pot
+  objectInfo: "It is recorded that Christan David worked in the Vineyard at lot 07
+    in Old Salem. He would have been a skilled horticulturist and might have tended
+    to plants at his home. A green-glazed sherd and other ceramics were found at
+    the site of his house. These sherds could be fragments from small flower pots.
+    The green-glazed sherd closely resembles a green-glazed flower pot found in the
+    collection at Old Salem. Also, during Christian David\u2019s lifetime, green-glazed
+    flower pots were a popular commodity made by the Old Salem potters.  A free Black
+    Moravian named Peter Oliver worked at a pottery known for using this green glaze."
+  objectScaleSizeF: 1
+  objectScaleSize: {x: 0, y: 0, z: 0}
+--- !u!1001 &2479100950443753869
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2479100948578750125}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: cb2e846b5e3e72c4b9d57f859e36c4e8, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb2e846b5e3e72c4b9d57f859e36c4e8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 457.877
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb2e846b5e3e72c4b9d57f859e36c4e8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.03
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb2e846b5e3e72c4b9d57f859e36c4e8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 399.778
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb2e846b5e3e72c4b9d57f859e36c4e8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb2e846b5e3e72c4b9d57f859e36c4e8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb2e846b5e3e72c4b9d57f859e36c4e8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb2e846b5e3e72c4b9d57f859e36c4e8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb2e846b5e3e72c4b9d57f859e36c4e8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb2e846b5e3e72c4b9d57f859e36c4e8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb2e846b5e3e72c4b9d57f859e36c4e8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: cb2e846b5e3e72c4b9d57f859e36c4e8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3478faf91ea41d145ab1987aab9a56eb, type: 2}
+    - target: {fileID: 919132149155446097, guid: cb2e846b5e3e72c4b9d57f859e36c4e8, type: 3}
+      propertyPath: m_Name
+      value: flowerpot_earthern
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cb2e846b5e3e72c4b9d57f859e36c4e8, type: 3}
+      propertyPath: m_TagString
+      value: canPickUp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cb2e846b5e3e72c4b9d57f859e36c4e8, type: 3}
+--- !u!4 &2732893671307732582 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cb2e846b5e3e72c4b9d57f859e36c4e8, type: 3}
+  m_PrefabInstance: {fileID: 2479100950443753869}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3361621545310338268 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cb2e846b5e3e72c4b9d57f859e36c4e8, type: 3}
+  m_PrefabInstance: {fileID: 2479100950443753869}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2479100950443753862
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545310338268}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2479100950443753865
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545310338268}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3282067, y: 0.4349545, z: 0.3187816}
+  m_Center: {x: -0.002928823, y: 0.0010858251, z: 0.007480889}
+--- !u!114 &2479100950443753864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545310338268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c282687178e56542a06c119c52ba513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2479100950443753861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545310338268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec1f173283c43e4383b7a728745def1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Earthen Flower Pot
+  objectInfo: 'Pottery continues to be found throughout the archaeological site varying
+    in shape, color, and design. A primitive type of pottery, lacking color or gloss,
+    has been found across the site, which would have been used in many steps of gardening.
+    Plants such as rosemary, sage, basil, and coriander (known for their medical
+    uses) would have been tended to in pots such as these. Pottery had many other
+    uses including storing goods, cooking, and decoration. '
+  objectScaleSizeF: 1.2
+  objectScaleSize: {x: 0, y: 0, z: 0}
+--- !u!1001 &2479100950467674128
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2479100948578750125}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: d02ac0b7b6a18874b925b95c9e135f3d, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d02ac0b7b6a18874b925b95c9e135f3d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 144.19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d02ac0b7b6a18874b925b95c9e135f3d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 144.19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d02ac0b7b6a18874b925b95c9e135f3d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 144.19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d02ac0b7b6a18874b925b95c9e135f3d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 457.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d02ac0b7b6a18874b925b95c9e135f3d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.9684
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d02ac0b7b6a18874b925b95c9e135f3d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 399.75
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d02ac0b7b6a18874b925b95c9e135f3d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.1544471
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d02ac0b7b6a18874b925b95c9e135f3d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.1544471
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d02ac0b7b6a18874b925b95c9e135f3d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6900336
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d02ac0b7b6a18874b925b95c9e135f3d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.6900332
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d02ac0b7b6a18874b925b95c9e135f3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d02ac0b7b6a18874b925b95c9e135f3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d02ac0b7b6a18874b925b95c9e135f3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -205.233
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d02ac0b7b6a18874b925b95c9e135f3d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cf42df188f1cd5e40ba09c94bc42a2d2, type: 2}
+    - target: {fileID: 919132149155446097, guid: d02ac0b7b6a18874b925b95c9e135f3d, type: 3}
+      propertyPath: m_Name
+      value: WickLamp
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d02ac0b7b6a18874b925b95c9e135f3d, type: 3}
+      propertyPath: m_TagString
+      value: canPickUp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d02ac0b7b6a18874b925b95c9e135f3d, type: 3}
+--- !u!4 &2732893671258646523 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d02ac0b7b6a18874b925b95c9e135f3d, type: 3}
+  m_PrefabInstance: {fileID: 2479100950467674128}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3361621545334652225 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d02ac0b7b6a18874b925b95c9e135f3d, type: 3}
+  m_PrefabInstance: {fileID: 2479100950467674128}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2479100950467674125
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545334652225}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2479100950467674124
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545334652225}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.00046629127, y: 0.000970417, z: 0.00090368267}
+  m_Center: {x: -0.00000024852488, y: -0.00035634323, z: 0.00031662206}
+--- !u!114 &2479100950467674127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545334652225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c282687178e56542a06c119c52ba513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2479100950467674120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361621545334652225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec1f173283c43e4383b7a728745def1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Wick Lamp
+  objectInfo: 'Lamps ranged from simple pots with a single wick to ornate and highly
+    decorated objects. From the size and weight of a metal or tin lamp, they most
+    likely would have been set on a table or hung from a wall or ceiling to provide
+    more coverage of light. These wick lamps required oil to fuel the fire and this
+    oil ranged from animal fat to bees wax to various plant based oils. These were
+    relatively expensive materials and therefore, these lamps were more common in
+    wealthy households. If a wick lamp was used by Christian David it would likely
+    have been a simple single wick lamp with little to no decoration. '
+  objectScaleSizeF: 450
+  objectScaleSize: {x: 0, y: 0, z: 0}
